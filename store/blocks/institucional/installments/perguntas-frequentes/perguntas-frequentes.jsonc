@@ -1,0 +1,43 @@
+{
+  "store.custom#perguntas-frequentes__institucional": {
+    "blocks": [
+      "flex-layout.row#politicas-default__top",
+      "flex-layout.row#perguntas-frequentes-quem-somos__content"
+    ]
+  },
+  "flex-layout.row#perguntas-frequentes-quem-somos__content": {
+    "title": "Perguntas Frequentes",
+    "children": ["flex-layout.col#perguntas-frequentes-default__content"],
+    "props": {
+      "blockClass": "institucional-default__container",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#perguntas-frequentes-default__content": {
+    "title": "Perguntas Frequentes - conteúdo",
+    "children": [
+      "rich-text#perguntas-frequentes-perguntas-frequentes",
+      "disclosure-layout#perguntas-frequentes__item1",
+      "disclosure-layout#perguntas-frequentes__item2",
+      "disclosure-layout#perguntas-frequentes__item3",
+      "disclosure-layout#perguntas-frequentes__item4",
+      "disclosure-layout#perguntas-frequentes__item5",
+      "disclosure-layout#perguntas-frequentes__item6",
+      "disclosure-layout#perguntas-frequentes__item7"
+    ],
+    "props": {
+      "blockClass": "institucional-default__content",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#perguntas-frequentes-perguntas-frequentes": {
+    "title": "Perguntas Frequentes",
+    "props": {
+      "text": "# Perguntas Frequentes",
+      "blockClass": [
+        "installments-default__text",
+        "installments-title-only__text"
+      ]
+    }
+  }
+}

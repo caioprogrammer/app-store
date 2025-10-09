@@ -1,0 +1,34 @@
+{
+  "store.custom#fale-conosco__institucional": {
+    "blocks": [
+      "flex-layout.row#politicas-default__top",
+      "flex-layout.row#fale-conosco-quem-somos__content"
+    ]
+  },
+  "flex-layout.row#fale-conosco-quem-somos__content": {
+    "title": "FALE CONOSCO",
+    "children": ["flex-layout.col#fale-conosco-default__content"],
+    "props": {
+      "blockClass": [
+        "institucional-default__container",
+        "institucional-fale-conosco__institucional"
+      ],
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#fale-conosco-default__content": {
+    "title": "FALE CONOSCO - conteúdo",
+    "children": ["rich-text#fale-conosco-fale-conosco", "cg-fale-conosco-form"],
+    "props": {
+      "blockClass": "institucional-default__content",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#fale-conosco-fale-conosco": {
+    "title": "Fale Conosco",
+    "props": {
+      "text": "# fale conosco\nOie, tudo bem por aí? Preparamos este espaço para você nos enviar comentários, sugestões, ou tirar dúvidas. Como podemos te ajudar? Manda um recadinho aqui e logo logo daremos retorno.",
+      "blockClass": ["installments-fale-conosco-fale-conosco"]
+    }
+  }
+}

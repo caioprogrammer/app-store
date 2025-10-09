@@ -1,0 +1,26 @@
+{
+  "cg-banner-carousel#home__banner-1": {
+    "title": "HOME - banner 1",
+    "props": {
+      "items": [
+        {
+          "imageDesktop": "https://suntime.vtexassets.com/assets/vtex.file-manager-graphql/images/c4ebf07d-be84-49ba-bfe4-a1a7e5168f87___8f77b594d3c69738c94088ee1d073367.jpg",
+          "imageMobile": "https://suntime.vtexassets.com/assets/vtex.file-manager-graphql/images/be1b0087-e882-40b3-8562-fbf7cfe288f7___ecf0f9bd60b6ac746a03c8db5d5776e8.jpg",
+          "link": "#"
+        },
+        {
+          "imageDesktop": "https://suntime.vtexassets.com/assets/vtex.file-manager-graphql/images/c4410265-d1de-48da-8810-d2408dbcad16___20f466ecae52ef4310cff4bcf37e604d.jpg",
+          "imageMobile": "https://suntime.vtexassets.com/assets/vtex.file-manager-graphql/images/4db43bab-16af-4a02-af80-3e7a90d9ec7c___550f21edb7f1e85f2755594dc19be5a8.jpg",
+          "link": "#"
+        },
+        {
+          "imageDesktop": "https://suntime.vtexassets.com/assets/vtex.file-manager-graphql/images/bd29790c-3cba-4d41-948b-f61f47293b07___dc79e505e8b82411a19d3eba17605e8b.jpg",
+          "imageMobile": "https://suntime.vtexassets.com/assets/vtex.file-manager-graphql/images/74733a0b-c081-465c-b3f5-f72ef8a1817f___87fa1f9daffdc33b5b4bbc8e2f27290d.jpg",
+          "link": "#"
+        }
+      ],
+
+      "blockClass": "home__banner--1"
+    }
+  }
+}

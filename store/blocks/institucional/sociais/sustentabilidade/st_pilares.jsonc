@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#institucional-sustentabilidade__content-pilares": {
+    "title": "INSTICIONAL - Pilares",
+    "children": [
+      "rich-text#home__slider-infos--item-1",
+      "rich-text#home__slider-infos--item-2",
+      "rich-text#home__slider-infos--item-3",
+      "rich-text#home__slider-infos--item-4",
+      "rich-text#home__slider-infos--item-5",
+      "rich-text#home__slider-infos--item-6",
+      "rich-text#home__slider-infos--item-7",
+      "rich-text#home__slider-infos--item-8"
+    ],
+    "props": {
+      "blockClass": "institucional-default__container-pilares",
+      "colSizing": "auto"
+    }
+  }
+}

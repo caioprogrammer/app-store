@@ -1,0 +1,9 @@
+{
+  "store.custom#colecao": {
+    "blocks": ["search-result-layout.customQuery#colecao"]
+  },
+
+  "search-result-layout.customQuery#colecao": {
+    "blocks": ["search-result-layout.desktop", "search-not-found-layout"]
+  }
+}

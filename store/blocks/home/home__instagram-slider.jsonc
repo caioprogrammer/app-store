@@ -1,0 +1,91 @@
+{
+  "link#home__instagram--title": {
+    "title": "HOME - Titulo vitrine de instagram",
+    "props": {
+      "href": "https://www.instagram.com/suntime.swim/",
+      "label": "SIGA A GENTE @SUNTIME.SWIM",
+      "target": "_blank",
+      "blockClass": "home__instagram--slider"
+    }
+  },
+
+  "slider-layout#home__instagram--slider": {
+    "title": "HOME - Instagram - slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000
+      },
+      "centerMode": {
+        "desktop": "to-the-left",
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "centerModeSlidesGap": "0",
+      "blockClass": "home__instagram--slider"
+    }
+  },
+  "flex-layout.row#home__instagram": {
+    "title": "HOME - Instagram",
+    "children": ["list-context.image-list#home__instagram"]
+  },
+  "list-context.image-list#home__instagram": {
+    "title": "HOME - Instagram",
+    "children": ["slider-layout#home__instagram--slider"],
+    "props": {
+      "preload": true,
+      "height": "",
+      "images": [
+        {
+          "loading": "lazy",
+          "image": "assets/mock/home/home-insta-1.png",
+          "description": "something something"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/mock/home/home-insta-2.png",
+
+          "description": "something something"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/mock/home/home-insta-3.png",
+
+          "description": "something something"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/mock/home/home-insta-4.png",
+
+          "description": "something something"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/mock/home/home-insta-5.png",
+
+          "description": "something something"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/mock/home/home-insta-6.png",
+
+          "description": "something something"
+        },
+        {
+          "loading": "lazy",
+          "image": "assets/mock/home/home-insta-7.png",
+
+          "description": "something something"
+        }
+      ],
+      "blockClass": "home__instagram--slider"
+    }
+  }
+}

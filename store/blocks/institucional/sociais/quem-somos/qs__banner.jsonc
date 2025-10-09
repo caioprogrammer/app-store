@@ -1,0 +1,33 @@
+{
+  "slider-layout#qs__banner": {
+    "title": "Quem Somos - Banner",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "blockClass": "qs__banner"
+    }
+  },
+  "list-context.image-list#qs__banner": {
+    "title": "Quem Somos - Banner Principal",
+    "children": ["slider-layout#qs__banner"],
+    "props": {
+      "preload": true,
+      "height": "",
+      "images": [
+        {
+          "loading": "lazy",
+          "image": "assets/images/institucional-quem-somos.png",
+          "mobileImage": "assets/images/institucional-quem-somos-mobile.png",
+          "description": "Quem Somos"
+        }
+      ],
+      "blockClass": "qs__banner"
+    }
+  }
+}

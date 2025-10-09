@@ -1,0 +1,24 @@
+{
+  "store.custom#troca-e-devolucao__institucional": {
+    "blocks": [
+      "flex-layout.row#politicas-default__top",
+      "flex-layout.row#troca-e-devolucao-quem-somos__content"
+    ]
+  },
+  "flex-layout.row#troca-e-devolucao-quem-somos__content": {
+    "title": "TROCA E DEVOLUÇÃO",
+    "children": ["flex-layout.col#troca-e-devolucao-default__content"],
+    "props": {
+      "blockClass": "installments-default__container",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#troca-e-devolucao-default__content": {
+    "title": "TROCA E DEVOLUÇÃO - conteúdo",
+    "children": ["rich-text#troca-e-devolucao-troca-e-devolucao"],
+    "props": {
+      "blockClass": "institucional-default__content",
+      "preventHorizontalStretch": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "disclosure-layout#product__share": {
+    "props": {
+      "blockClass": "product__info--share",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#product__share--trigger",
+      "disclosure-content#product__share--content"
+    ]
+  },
+  "disclosure-trigger#product__share--trigger": {
+    "props": {
+      "blockClass": "product__info--share"
+    },
+    "children": ["rich-text#product__share--triggertext"]
+  },
+  "disclosure-content#product__share--content": {
+    "props": {
+      "blockClass": "product__info--share"
+    },
+    "children": ["share"]
+  },
+  "rich-text#product__share--triggertext": {
+    "props": {
+      "blockClass": "product__info--share",
+      "text": "![compartilhar](assets/icons/icon-share.svg)"
+    }
+  }
+}

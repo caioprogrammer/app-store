@@ -1,0 +1,17 @@
+{
+  "store.custom#categoria-custom": {
+    "blocks": ["search-result-layout.customQuery#categoria-custom"]
+  },
+  "search-result-layout.customQuery#categoria-custom": {
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 32,
+        "queryField": "138",
+        "mapField": "productClusterIds"
+      },
+      "pagination": "show-more",
+      "preventRouteChange": true
+    },
+    "blocks": ["search-result-layout.desktop", "search-not-found-layout"]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "store.custom#politicas__institucional": {
+    "blocks": [
+      "flex-layout.row#politicas-default__top",
+      "flex-layout.row#politicas-quem-somos__content"
+    ]
+  },
+  "flex-layout.row#politicas-default__top": {
+    "children": [
+      "menu#institucional-default__breadcrumb",
+      "disclosure-layout#politicas-default__menu-dropdown"
+    ],
+    "props": {
+      "blockClass": "institucional-quem-somos__top",
+      "colSizing": "auto"
+    }
+  },
+  "menu#politicas-default__menu": {
+    "title": "POLITICAS - menu",
+    "props": {
+      "blockClass": "institucional-default__menu",
+      "items": [
+        {
+          "id": "menu-item-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/politicas",
+            "noFollow": false,
+            "tagTitle": "Políticas",
+            "text": "Políticas"
+          }
+        },
+        {
+          "id": "menu-item-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/perguntas-frequentes",
+            "noFollow": false,
+            "tagTitle": "perguntas frequentes",
+            "text": "perguntas frequentes"
+          }
+        },
+        {
+          "id": "menu-item-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/trocas-e-devolucoes",
+            "noFollow": false,
+            "tagTitle": "Trocas e Devoluções",
+            "text": "Trocas e Devoluções"
+          }
+        },
+        {
+          "id": "menu-item-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/fale-conosco",
+            "noFollow": false,
+            "tagTitle": "fale conosco",
+            "text": "fale conosco"
+          }
+        },
+        {
+          "id": "menu-item-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/frete-e-entrega",
+            "noFollow": false,
+            "tagTitle": "frete e entrega",
+            "text": "frete e entrega"
+          }
+        }
+      ]
+    }
+  },
+  "flex-layout.row#politicas-quem-somos__content": {
+    "title": "POLITICAS",
+    "children": ["flex-layout.col#politicas-default__content"],
+    "props": {
+      "blockClass": "installments-default__container",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#politicas-default__content": {
+    "title": "POLITICAS - conteúdo",
+    "children": [
+      "rich-text#politicas-seguranca",
+      "rich-text#politicas-pagamentos"
+    ],
+    "props": {
+      "blockClass": "institucional-default__content",
+      "preventHorizontalStretch": true
+    }
+  },
+  "disclosure-layout#politicas-default__menu-dropdown": {
+    "children": [
+      "disclosure-trigger#politicas-default__menu-trigger",
+      "disclosure-content#politicas-default__menu-content"
+    ],
+    "props": {
+      "animated": true,
+      "initialVisibility": "hidden"
+    }
+  },
+  "disclosure-trigger#politicas-default__menu-trigger": {
+    "children": ["rich-text#politicas-default__menu-triggertext"],
+    "props": {
+      "blockClass": "institucional-default__menu-trigger"
+    }
+  },
+  "rich-text#politicas-default__menu-triggertext": {
+    "title": "TITULO",
+    "props": {
+      "text": "titulo",
+      "blockClass": "institucional-default__menu-triggertext"
+    }
+  },
+  "disclosure-content#politicas-default__menu-content": {
+    "children": ["menu#politicas-default__menu"],
+    "props": {
+      "blockClass": "institucional-default__menu-content"
+    }
+  }
+}

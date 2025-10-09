@@ -1,0 +1,45 @@
+{
+  "flex-layout.col#footer__quem-somos": {
+    "children": [
+      "link#footer__quem-somos",
+      "link#footer__sustentabilidade",
+      "link#footer__sob-medida",
+      "link#footer__midia"
+    ],
+    "props": {
+      "blockClass": "footer--link"
+    }
+  },
+  "link#footer__quem-somos": {
+    "title": "FOOTER - Quem Somos",
+    "props": {
+      "href": "/institucional/quem-somos",
+      "label": "quem somos",
+      "blockClass": "footer--link"
+    }
+  },
+  "link#footer__sustentabilidade": {
+    "title": "FOOTER - Sustentabilidade",
+    "props": {
+      "href": "/institucional/sustentabilidade",
+      "label": "sustentabilidade",
+      "blockClass": "footer--link"
+    }
+  },
+  "link#footer__sob-medida": {
+    "title": "FOOTER - Sob Medida",
+    "props": {
+      "href": "/institucional/sob-medida",
+      "label": "sob medida",
+      "blockClass": "footer--link"
+    }
+  },
+  "link#footer__midia": {
+    "title": "FOOTER - midia",
+    "props": {
+      "href": "/institucional/midia",
+      "label": "mídia",
+      "blockClass": "footer--link"
+    }
+  }
+}

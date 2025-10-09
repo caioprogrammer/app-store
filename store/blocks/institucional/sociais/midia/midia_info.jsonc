@@ -1,0 +1,223 @@
+{
+  "flex-layout.col#midia__item-1": {
+    "props": {
+      "blockClass": "midia__item"
+    },
+    "children": [
+      "rich-text#midia__item-1",
+      "flex-layout.row#midia__images--item-1"
+    ]
+  },
+  "rich-text#midia__item-1": {
+    "props": {
+      "text": "# do mar para o mar\nl’officiel | #99.2023",
+      "blockClass": "midia__item"
+    }
+  },
+  "flex-layout.row#midia__images--item-1": {
+    "children": ["image#midia__image-1--item-1", "image#midia__image-2--item-1"]
+  },
+  "image#midia__image-1--item-1": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img1-item-1.png"
+    }
+  },
+  "image#midia__image-2--item-1": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img2-item-1.png"
+    }
+  },
+  ///////
+  "flex-layout.col#midia__item-2": {
+    "props": {
+      "blockClass": "midia__item"
+    },
+    "children": [
+      "rich-text#midia__item-2",
+      "image#midia__image-1--item-2",
+      "flex-layout.row#midia__images--item-2",
+      "flex-layout.row#midia__images2--item-2"
+    ]
+  },
+  "rich-text#midia__item-2": {
+    "props": {
+      "text": "# collab Suntime Swim & Casa Cipó\nharper's bazaar | 11.2022",
+      "blockClass": "midia__item"
+    }
+  },
+  "flex-layout.row#midia__images--item-2": {
+    "children": ["image#midia__image-2--item-2", "image#midia__image-3--item-2"]
+  },
+  "flex-layout.row#midia__images2--item-2": {
+    "children": ["image#midia__image-4--item-2", "image#midia__image-5--item-2"]
+  },
+  "image#midia__image-1--item-2": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img1-item-2.png"
+    }
+  },
+  "image#midia__image-2--item-2": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img2-item-2.png"
+    }
+  },
+  "image#midia__image-3--item-2": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img3-item-2.png"
+    }
+  },
+  "image#midia__image-4--item-2": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img4-item-2.png"
+    }
+  },
+  "image#midia__image-5--item-2": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img5-item-2.png"
+    }
+  },
+  ///////
+  "flex-layout.col#midia__item-3": {
+    "props": {
+      "blockClass": "midia__item"
+    },
+    "children": [
+      "rich-text#midia__item-3",
+      "flex-layout.row#midia__images--item-3"
+    ]
+  },
+  "rich-text#midia__item-3": {
+    "props": {
+      "text": "# que Glória\no globo | 11.2020",
+      "blockClass": "midia__item"
+    }
+  },
+  "flex-layout.row#midia__images--item-3": {
+    "children": ["image#midia__image-1--item-3", "image#midia__image-2--item-3"]
+  },
+  "image#midia__image-1--item-3": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img1-item-3.png"
+    }
+  },
+  "image#midia__image-2--item-3": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img2-item-3.png"
+    }
+  },
+  ///////
+  "flex-layout.col#midia__item-4": {
+    "props": {
+      "blockClass": "midia__item"
+    },
+    "children": ["rich-text#midia__item-4", "image#midia__image-1--item-4"]
+  },
+  "rich-text#midia__item-4": {
+    "props": {
+      "text": "# matéria da capa Gaby Amarantos\nCláudia | 11.2019",
+      "blockClass": "midia__item"
+    }
+  },
+  "image#midia__image-1--item-4": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img1-item-4.png"
+    }
+  },
+  ///////
+  "flex-layout.col#midia__item-5": {
+    "props": {
+      "blockClass": "midia__item"
+    },
+    "children": [
+      "rich-text#midia__item-5",
+      "flex-layout.row#midia__images--item-5"
+    ]
+  },
+  "rich-text#midia__item-5": {
+    "props": {
+      "text": "# pegue o desvio\nCláudia | 01.2019",
+      "blockClass": "midia__item"
+    }
+  },
+  "flex-layout.row#midia__images--item-5": {
+    "children": ["image#midia__image-1--item-5", "image#midia__image-2--item-5"]
+  },
+  "image#midia__image-1--item-5": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img1-item-5.png"
+    }
+  },
+  "image#midia__image-2--item-5": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img2-item-5.png"
+    }
+  },
+  ///////
+  "flex-layout.col#midia__item-6": {
+    "props": {
+      "blockClass": "midia__item"
+    },
+    "children": [
+      "rich-text#midia__item-6",
+      "flex-layout.row#midia__images--item-6"
+    ]
+  },
+  "rich-text#midia__item-6": {
+    "props": {
+      "text": "# beleza quente\nrevista glamour | 03.2019",
+      "blockClass": "midia__item"
+    }
+  },
+  "flex-layout.row#midia__images--item-6": {
+    "children": [
+      "image#midia__image-1--item-6",
+      "image#midia__image-2--item-6",
+      "image#midia__image-3--item-6"
+    ]
+  },
+  "image#midia__image-1--item-6": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img1-item-6.png"
+    }
+  },
+  "image#midia__image-2--item-6": {
+    "props": {
+      "blockClass": "midia__image",
+
+      "src": "assets/mock/midia/img2-item-6.png"
+    }
+  },
+  "image#midia__image-3--item-6": {
+    "props": {
+      "blockClass": ["midia__image", "midia__image-3"],
+
+      "src": "assets/mock/midia/img3-item-6.png"
+    }
+  }
+}

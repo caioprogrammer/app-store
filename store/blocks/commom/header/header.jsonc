@@ -1,0 +1,117 @@
+{
+  "header.full": {
+    "title": "HEADER",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header": {
+    "title": "HEADER",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "title": "Desktop",
+    "children": ["header-row#header__desktop"]
+  },
+  "header-layout.mobile": {
+    "title": "Mobile",
+    "children": ["header-row#header__mobile"]
+  },
+  "header-row#header__desktop": {
+    "children": [
+      // "cg-newsletter-popup",
+      "disposition-layout#header"
+    ],
+    "props": {
+      "blockClass": ["main-header"],
+      "sticky": false
+    }
+  },
+  "header-row#header__mobile": {
+    "children": ["disposition-layout#header-mobile"],
+    "props": {
+      "blockClass": ["main-header", "float"],
+      "sticky": false
+    }
+  },
+  "link#header__whatsapp--link": {
+    "title": "HOME - Titulo vitrine de instagram",
+    "props": {
+      "href": "https://api.whatsapp.com/send?phone=5511911692266",
+      "label": "ajuda?",
+      "target": "_blank",
+      "blockClass": "header__whatsapp--link"
+    }
+  },
+  "disposition-layout#header": {
+    "title": "Header - Conteúdos",
+    "children": [
+      "cg-lgpd",
+      "cg-custom-header",
+      "slider-layout#header__tipbar",
+      "flex-layout.row#header__content",
+      "flex-layout.row#header__menu-logo",
+      "link#header__whatsapp--link"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1,
+          "__editorItemTitle": "Header - Lgpd"
+        },
+        {
+          "order": 2,
+          "__editorItemTitle": "Header - Estilos Custom"
+        },
+        {
+          "order": 3,
+          "__editorItemTitle": "Header - Tipbar"
+        },
+        {
+          "order": 4,
+          "__editorItemTitle": "Header - Conteúdo"
+        },
+        {
+          "order": 5,
+          "__editorItemTitle": "Header - Menu Logo"
+        },
+        {
+          "order": 6,
+          "__editorItemTitle": "Header - WhatsApp Ajuda"
+        }
+      ]
+    }
+  },
+  "disposition-layout#header-mobile": {
+    "title": "Header - Conteúdos",
+    "children": [
+      "cg-lgpd",
+      "cg-custom-header",
+      "slider-layout#header__tipbar",
+      "flex-layout.row#header__content--mobile",
+      "link#header__whatsapp--link"
+    ],
+    "props": {
+      "disposition": [
+        {
+          "order": 1,
+          "__editorItemTitle": "Header - Lgpd"
+        },
+        {
+          "order": 2,
+          "__editorItemTitle": "Header - Estilos Custom"
+        },
+        {
+          "order": 3,
+          "__editorItemTitle": "Header - Tipbar"
+        },
+        {
+          "order": 4,
+          "__editorItemTitle": "Header - Conteúdo"
+        },
+        {
+          "order": 5,
+          "__editorItemTitle": "Header - WhatsApp Ajuda"
+        }
+      ]
+    }
+  }
+}

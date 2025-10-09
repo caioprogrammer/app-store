@@ -1,0 +1,63 @@
+{
+  "slider-layout#home__categories": {
+    "title": "HOME - Carousel de categorias",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "navigationStep": 1,
+      "infinite": false,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "mobileOnly",
+      "blockClass": "home__categories"
+    },
+    "children": [
+      "info-card#home__categories--item1",
+      "info-card#home__categories--item2",
+      "info-card#home__categories--item3",
+      "info-card#home__categories--item4"
+    ]
+  },
+  "info-card#home__categories--item1": {
+    "title": "item 1",
+    "props": {
+      "imageUrl": "assets/mock/home/home-biquinis.png",
+      "callToActionText": "biquínis",
+      "callToActionUrl": "/biquinis?O=OrderByReleaseDateDESC",
+      "imageActionUrl": "/biquinis?O=OrderByReleaseDateDESC",
+      "blockClass": "home__categories--item"
+    }
+  },
+  "info-card#home__categories--item2": {
+    "title": "item 2",
+    "props": {
+      "imageUrl": "assets/mock/home/home-maios.png",
+      "callToActionText": "maiôs",
+      "callToActionUrl": "/praia/biquinis?O=OrderByReleaseDateDESC",
+      "imageActionUrl": "/praia/biquinis?O=OrderByReleaseDateDESC",
+      "blockClass": "home__categories--item"
+    }
+  },
+  "info-card#home__categories--item3": {
+    "title": "item 3",
+    "props": {
+      "imageUrl": "assets/mock/home/home-saidas.png",
+      "callToActionText": "saídas",
+      "callToActionUrl": "/praia/maios?O=OrderByReleaseDateDESC",
+      "imageActionUrl": "/praia/maios?O=OrderByReleaseDateDESC",
+      "blockClass": "home__categories--item"
+    }
+  },
+  "info-card#home__categories--item4": {
+    "title": "item 4",
+    "props": {
+      "imageUrl": "assets/mock/home/home-vestidos.png",
+      "callToActionText": "vestidos",
+      "callToActionUrl": "/vestidos?O=OrderByReleaseDateDESC",
+      "imageActionUrl": "/vestidos?O=OrderByReleaseDateDESC",
+      "blockClass": "home__categories--item"
+    }
+  }
+}

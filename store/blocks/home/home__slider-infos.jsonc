@@ -1,0 +1,80 @@
+{
+  "slider-layout#home__slider-infos": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 9,
+        "phone": 2
+      },
+      // "navigationStep": 1,
+      "infinite": false,
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "desktopOnly",
+      "fullWidth": false,
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
+      },
+      "blockClass": ["home__slider-infos"]
+    },
+
+    "children": [
+      "rich-text#home__slider-infos--item-1",
+      "rich-text#home__slider-infos--item-2",
+      "rich-text#home__slider-infos--item-3",
+      "rich-text#home__slider-infos--item-4",
+      "rich-text#home__slider-infos--item-5",
+      "rich-text#home__slider-infos--item-6",
+      "rich-text#home__slider-infos--item-7",
+      "rich-text#home__slider-infos--item-8"
+    ]
+  },
+  "rich-text#home__slider-infos--item-1": {
+    "props": {
+      "text": "**![ecoamiga](assets/icons/icon-ecoamiga.svg)** ecoamiga **responsabilidade ambiental: já plantamos mais de 700 árvores para o reflorestamento no Brasil em parceria com a SOS Amazônia no projeto “Faça Florescer Florestas”**",
+      "blockClass": "home__slider-infos--item"
+    }
+  },
+  "rich-text#home__slider-infos--item-2": {
+    "props": {
+      "text": "**![upcycling](assets/icons/icon-upcycling.svg)** upcycling **fazemos upcycling (reuso) e encaminhamos as sobras de tecidos para reciclagem de forma a retornarem para a cadeia da moda em forma de fio.**",
+      "blockClass": "home__slider-infos--item"
+    }
+  },
+  "rich-text#home__slider-infos--item-3": {
+    "props": {
+      "text": "**![tecidos sustentáveis](assets/icons/icon-tecidos-sustentaveis.svg)** tecidos<br>sustentáveis **usamos tecidos biodegradáveis, algodão certificado e priorizamos a produção de matéria-prima nacional, além de tecidos certificados.**",
+      "blockClass": "home__slider-infos--item"
+    }
+  },
+  "rich-text#home__slider-infos--item-4": {
+    "props": {
+      "text": "**![carbono zero](assets/icons/icon-carbono-zero.svg)** carbono<br>zero **Entregas sem emissão de CO2 para toda a capital paulista.**",
+      "blockClass": "home__slider-infos--item"
+    }
+  },
+  "rich-text#home__slider-infos--item-5": {
+    "props": {
+      "text": "**![moda circular](assets/icons/icon-moda-circular.svg)** moda<br>circular **Valorizamos a produção ética local e selecionamos matérias-primas nacionais.**",
+      "blockClass": "home__slider-infos--item"
+    }
+  },
+  "rich-text#home__slider-infos--item-6": {
+    "props": {
+      "text": "**![água de reuso](assets/icons/icon-agua-de-reuso.svg)** água de reuso **Nossos parceiros são certificados e utilizam água de reuso nas confecções de Matéria Prima.**",
+      "blockClass": "home__slider-infos--item"
+    }
+  },
+  "rich-text#home__slider-infos--item-7": {
+    "props": {
+      "text": "**![para todos os biotipos](assets/icons/icon-biotipos.svg)** para todos<br>os biotipos **Fazemos peças sob medida que vão além do P, M e G, atendendo todos os biotipos por uma moda mais democrática.**",
+      "blockClass": "home__slider-infos--item"
+    }
+  },
+  "rich-text#home__slider-infos--item-8": {
+    "props": {
+      "text": "**![slow fashion](assets/icons/icon-slow-fashion.svg)** slow fashion **Trabalhamos para transformar a moda e fazer uma moda mais consciente. Criamos peças atemporais, uma de cada vez, pensando na durabilidade e qualidade dos nossos produtos.**",
+      "blockClass": "home__slider-infos--item"
+    }
+  }
+}

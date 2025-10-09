@@ -1,0 +1,51 @@
+{
+  "flex-layout.col#footer__nossas-politicas": {
+    "children": [
+      "link#footer__nossas-politicas",
+      "link#footer__perguntas-frequentes",
+      "link#footer__trocas-e-devolucoes",
+      "link#footer__fale-conosco",
+      "link#footer__frete-e-entrega"
+    ]
+  },
+  "link#footer__nossas-politicas": {
+    "title": "FOOTER - Nossas políticas",
+    "props": {
+      "href": "/institucional/politicas",
+      "label": "Nossas políticas",
+      "blockClass": "footer--link"
+    }
+  },
+  "link#footer__perguntas-frequentes": {
+    "title": "FOOTER - Perguntas frequentes",
+    "props": {
+      "href": "/institucional/perguntas-frequentes",
+      "label": "Perguntas frequentes",
+      "blockClass": "footer--link"
+    }
+  },
+  "link#footer__trocas-e-devolucoes": {
+    "title": "FOOTER - Trocas e devoluções",
+    "props": {
+      "href": "/institucional/trocas-e-devolucoes",
+      "label": "Trocas e devoluções",
+      "blockClass": "footer--link"
+    }
+  },
+  "link#footer__fale-conosco": {
+    "title": "FOOTER - Fale Conosco",
+    "props": {
+      "href": "/institucional/fale-conosco",
+      "label": "Fale Conosco",
+      "blockClass": "footer--link"
+    }
+  },
+  "link#footer__frete-e-entrega": {
+    "title": "FOOTER - frete e entrega",
+    "props": {
+      "href": "/institucional/frete-e-entrega",
+      "label": "frete e entrega",
+      "blockClass": "footer--link"
+    }
+  }
+}

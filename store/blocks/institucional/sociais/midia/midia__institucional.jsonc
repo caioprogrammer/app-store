@@ -1,0 +1,41 @@
+{
+  "store.custom#midia__institucional": {
+    "blocks": [
+      "flex-layout.row#institucional-default__top",
+      "flex-layout.row#institucional-midia__content"
+    ]
+  },
+
+  "flex-layout.row#institucional-midia__content": {
+    "title": "INSTITUCIONAL - Mídia",
+    "children": ["flex-layout.col#institucional-midia__content"],
+    "props": {
+      "blockClass": "institucional-midia__container",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#institucional-midia__content": {
+    "title": "INSTITUCIONAL - conteúdo",
+    "children": [
+      "rich-text#midia__title",
+      "flex-layout.col#midia__item-1",
+      "flex-layout.col#midia__item-2",
+      "flex-layout.col#midia__item-3",
+      "flex-layout.col#midia__item-4",
+      "flex-layout.col#midia__item-5",
+      "flex-layout.col#midia__item-6"
+    ],
+    "props": {
+      "blockClass": "institucional-midia__content",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#midia__title": {
+    "title": "Título",
+    "props": {
+      "text": "# mídia",
+      "blockClass": "institucional-default__title"
+    }
+  }
+}

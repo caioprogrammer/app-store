@@ -1,0 +1,86 @@
+{
+  "slider-layout#sb__slider-infos": {
+    "title": "Institucional - Banner Principal - slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000
+      },
+      "showPaginationDots": "always",
+      "showNavigationArrows": "never",
+      "blockClass": "home__main-banner"
+    },
+
+    "children": [
+      "flex-layout.row#sb__slider-banner--item-1",
+      "flex-layout.row#sb__slider-banner--item-2",
+      "flex-layout.row#sb__slider-banner--item-3"
+    ]
+  },
+  "flex-layout.row#sb__slider-banner--item-1": {
+    "children": [
+      "rich-text#sb__slider-banner--item-1",
+      "image#sb__slider-banner--item-1"
+    ],
+    "props": {
+      "blockClass": "sb__slider-banner--item"
+    }
+  },
+  "rich-text#sb__slider-banner--item-1": {
+    "props": {
+      "text": "# feito para\n## O seu corpo\nNossas peças são pensadas para todas as mulheres, por isso, trabalhamos muito além do p, m e g. nosso diferencial é fazer peças sob medida considerando o estilo e biotipo de cada cliente com a consultoria da modelista neusa ferreira e assinatura da estilista júlia fantin. confira o passo a passo abaixo.\n[agendar uma visita](#SobMedidaForm)",
+      "blockClass": "sb__slider-banner--item"
+    }
+  },
+  "image#sb__slider-banner--item-1": {
+    "props": {
+      "src": "assets/images/institucional-sb-banner-1.png"
+    }
+  },
+
+  "flex-layout.row#sb__slider-banner--item-2": {
+    "children": [
+      "rich-text#sb__slider-banner--item-2",
+      "image#sb__slider-banner--item-2"
+    ],
+    "props": {
+      "blockClass": "sb__slider-banner--item"
+    }
+  },
+  "rich-text#sb__slider-banner--item-2": {
+    "props": {
+      "text": "# pensado para\n## o seu biotipo\nNossas peças são pensadas para todas as mulheres, por isso, trabalhamos muito além do p, m e g. nosso diferencial é fazer peças sob medida considerando o estilo e biotipo de cada cliente com a consultoria da modelista neusa ferreira e assinatura da estilista júlia fantin. confira o passo a passo abaixo.\n[agendar uma visita](#SobMedidaForm)",
+      "blockClass": "sb__slider-banner--item"
+    }
+  },
+  "image#sb__slider-banner--item-2": {
+    "props": {
+      "src": "assets/images/institucional-sb-banner-2.png"
+    }
+  },
+  "flex-layout.row#sb__slider-banner--item-3": {
+    "children": [
+      "rich-text#sb__slider-banner--item-3",
+      "image#sb__slider-banner--item-3"
+    ],
+    "props": {
+      "blockClass": "sb__slider-banner--item"
+    }
+  },
+  "rich-text#sb__slider-banner--item-3": {
+    "props": {
+      "text": "# criado para\n## o seu estilo\nNossas peças são pensadas para todas as mulheres, por isso, trabalhamos muito além do p, m e g. nosso diferencial é fazer peças sob medida considerando o estilo e biotipo de cada cliente com a consultoria da modelista neusa ferreira e assinatura da estilista júlia fantin. confira o passo a passo abaixo.\n[agendar uma visita](#SobMedidaForm)",
+      "blockClass": "sb__slider-banner--item"
+    }
+  },
+  "image#sb__slider-banner--item-3": {
+    "props": {
+      "src": "assets/images/institucional-sb-banner-3.png"
+    }
+  }
+}

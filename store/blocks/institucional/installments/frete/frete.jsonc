@@ -1,0 +1,24 @@
+{
+  "store.custom#frete-e-entrega__institucional": {
+    "blocks": [
+      "flex-layout.row#politicas-default__top",
+      "flex-layout.row#frete-e-entrega-quem-somos__content"
+    ]
+  },
+  "flex-layout.row#frete-e-entrega-quem-somos__content": {
+    "title": "FRETE E ENTREGA",
+    "children": ["flex-layout.col#frete-e-entrega-default__content"],
+    "props": {
+      "blockClass": "installments-default__container",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#frete-e-entrega-default__content": {
+    "title": "FRETE E ENTREGA - conteúdo",
+    "children": ["rich-text#frete-e-entrega-frete-e-entrega"],
+    "props": {
+      "blockClass": "institucional-default__content",
+      "preventHorizontalStretch": true
+    }
+  }
+}

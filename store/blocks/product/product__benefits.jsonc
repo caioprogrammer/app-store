@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#product__benefits": {
+      "title": "PRODUCT - Benefícios",
+      "children": [
+        "rich-text#product__benefits--item-1",
+        "rich-text#product__benefits--item-2",
+        "rich-text#product__benefits--item-3",
+        "rich-text#product__benefits--item-4"
+      ],
+      "props": {
+        "blockClass": "product__benefits",
+        "colSizing": "auto"
+      }
+    },
+    "rich-text#product__benefits--item-1": {
+      "props": {
+        "text": "**![frete grátis](assets/icons/icon-truck.svg)** **frete grátis *acima de R$ 750,00*** ",
+        "blockClass": "product__benefits--item"
+      }
+    },
+    "rich-text#product__benefits--item-2": {
+      "props": {
+        "text": "**![15% de desconto](assets/icons/icon-first-buy.svg)** **15% de desconto *na primeira compra*** ",
+        "blockClass": "product__benefits--item"
+      }
+    },
+    "rich-text#product__benefits--item-3": {
+      "props": {
+        "text": "**![parcelamento](assets/icons/icon-creditcard.svg)** **parcelamento *em até 5x sem juros***",
+        "blockClass": "product__benefits--item"
+      }
+    },
+    "rich-text#product__benefits--item-4": {
+      "props": {
+        "text": "**![zero carbono](assets/icons/icon-leaf.svg)** **zero carbono *opção de entrega carbono zero***",
+        "blockClass": "product__benefits--item"
+      }
+    }
+  }
+  

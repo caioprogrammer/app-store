@@ -1,0 +1,54 @@
+{
+  "info-card#st__info-cards--item1": {
+    "title": "Info Card 1",
+    "props": {
+      "imageUrl": "assets/mock/institucional/st_infocard-1.png",
+      "textMode": "rich-text",
+
+      "headline": "# greenkini",
+      "subhead": "O Greenkini é nosso projeto xodó. Uma peça de biquíni feita com pequenos retalhos e outros tecidos que poderiam ser descartados por não outra utilidade, mas aqui na Suntime, temos outra visão sobre as sobras de tecidos. Em um mundo onde precisamos fazer uma moda consciente com urgência, decidimos aproveitar todos nossos materiais ao invés de descartá-los.  Através do upcycling, novas peças lindas e coloridas são feitas com estes pedaços de tecidos. O trabalho é mais manual, artesanal, e para desenvolver, modelar e costurar essas peças são ainda mais complexas do que um biquíni comum. Mas o resultado desse projeto, além de lindo aos olhos, ajuda a minimizar o impacto na natureza. As sobras dos retalhos que não são possíveis aproveitar para criação dos Greenkinis são moídas e transformadas em fios que voltam para a cadeia da moda. O projeto propõe reaproveitar todos os materiais e contribuir na mudança por uma moda mais sustentável e amiga, que minimize o impacto no meio ambiente.",
+      "textPosition": "right",
+      "callToActionText": "",
+      "callToActionUrl": "",
+      "imageActionUrl": "",
+      "blockClass": [
+        "qs__info-cards--item-action",
+        "qs__info-cards--item-nocall"
+      ]
+    }
+  },
+  "info-card#st__info-cards--item2": {
+    "title": "Info Card 2",
+    "props": {
+      "imageUrl": "assets/mock/institucional/st_infocard-2.png",
+      "textMode": "rich-text",
+
+      "headline": "# faça florescer floresta",
+      "subhead": "Queremos inspirar você a vestir suas melhores atitudes todos os dias, por isso, nos juntamos a SOS Amazônia no projeto ''Faça Florescer Floresta” para plantar árvores nativas, agir contra o desmatamento e também ajudar muitas famílias que vivem deste trabalho, gerando benefícios sociais e econômicos para as comunidades locais. São mais de 8 tipos de árvores como mogno, sumaúma, cedro, copaíba, andiroba, seringueira, castanheira, jatobá para revitalizar tais regiões, incluindo os municípios Tarauacá e Mâncio Lima, no Acre, e Guajará, no Amazonas. Assim, podemos contribuir para a conservação da biodiversidade e o crescimento da consciência ambiental na Amazônia.\n\nPara mais informações, <a target='_blank' class=1vtex-store-components-3-x-link vtex-store-components-3-x-link--qs__info-cards--item-action vtex-store-components-3-x-link--qs__info-cards--item-nocall vtex-store-components-3-x-link--qs__info-cards--item-left1 href=1https://sosamazonia.org.br/florescerfloresta1>acesse aqui</a>.\n\n<a target='_blank' href='https://sosamazonia.org.br/florescerfloresta'>![Faça Florescer Floresta](assets/icons/icon__st.png)</a>",
+      "textPosition": "left",
+      "callToActionText": "saiba mais",
+      "callToActionUrl": "",
+      "imageActionUrl": "",
+      "blockClass": [
+        "qs__info-cards--item-action",
+        "qs__info-cards--item-nocall",
+        "qs__info-cards--item-left"
+      ]
+    }
+  },
+  "info-card#st__info-cards--item3": {
+    "title": "Info Card 3",
+    "props": {
+      "imageUrl": "assets/mock/institucional/st_infocard-3.png",
+      "textMode": "rich-text",
+
+      "headline": "# histórias  sob  medida",
+      "subhead": "Em homenagem a todas as mulheres que passaram por um câncer de mama ou uma mastectomia, a Suntime fez um projeto muito especial. Histórias sob medida. Após entrevistar cada uma dessas fortes mulheres, criamos peças exclusivas e sob medida para estas mulheres muito especiais que passaram por este enorme desafio. Dentro das peças, aplicamos frases que foram significativas para a história de cada delas e traduzimos suas histórias em lindas peças. Realizamos um mini documentário do projeto com depoimentos e registro do processo de produção dessas peças mais que especiais. Veja no link abaixo:",
+      "textPosition": "right",
+      "callToActionText": "acesse o documentário",
+      "callToActionUrl": "https://sosamazonia.org.br/florescerfloresta",
+      "imageActionUrl": "https://sosamazonia.org.br/florescerfloresta",
+      "blockClass": "qs__info-cards--item-action"
+    }
+  }
+}

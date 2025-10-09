@@ -1,0 +1,45 @@
+{
+  "store.not-found#product": {
+    "blocks": ["rich-text#not-found-404", "link#back-to-home"]
+  },
+  "search-not-found-layout": {
+    "children": [
+      "breadcrumb.search#search__breadcrumb",
+      "flex-layout.row#not-found-search",
+      "rich-text#not-found-list"
+    ]
+  },
+  "rich-text#not-found-404": {
+    "title": "Fale Conosco",
+    "props": {
+      "text": "# erro 404\na página que você tentou acessar não existe ou foi removida",
+      "blockClass": ["installments-fale-conosco-fale-conosco", "not-found-404"]
+    }
+  },
+
+  "link#back-to-home": {
+    "props": {
+      "href": "/",
+      "label": "voltar para home",
+      "blockClass": "not-found-404"
+    }
+  },
+  "flex-layout.row#not-found-search": {
+    "children": ["search-title.v2#not-found-search"],
+    "props": {
+      "blockClass": "not-found-search"
+    }
+  },
+  "search-title.v2#not-found-search": {
+    "props": {
+      "blockClass": "not-found-search"
+    }
+  },
+  "rich-text#not-found-list": {
+    "title": "NOT FOUND - texto dica",
+    "props": {
+      "text": "**algumas dicas para melhorar seus resultados de busca:**\n- Use palavras menos específicas.\n- Escreva pelo menos 4 caracteres no campo de busca.\n- Utilize os menus do site para navegar até a categoria desejada.",
+      "blockClass": "not-found-list"
+    }
+  }
+}

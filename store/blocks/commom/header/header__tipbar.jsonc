@@ -1,0 +1,67 @@
+{
+  "slider-layout#header__tipbar": {
+    "title": "Slider Top Bar",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": false
+      },
+      "slideTransition": {
+        "speed": 250,
+        "delay": 0,
+        "timing": ""
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "blockClass": "header__tipbar"
+    },
+    "children": [
+      "rich-text#header__tipbar--item1",
+      "rich-text#header__tipbar--item2",
+      "rich-text#header__tipbar--item3",
+      "rich-text#header__tipbar--item4",
+      "rich-text#header__tipbar--item5"
+    ]
+  },
+  "rich-text#header__tipbar--item1": {
+    "title": "Slider Top Bar - ITEM 1",
+    "props": {
+      "text": "15% off na primeira compra",
+      "blockClass": "header__tipbar--text"
+    }
+  },
+  "rich-text#header__tipbar--item2": {
+    "title": "Slider Top Bar - ITEM 2",
+    "props": {
+      "text": "<a class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--header__tipbar--text' target='_blank' href='#'>15% off na primeira compra</a>",
+      "blockClass": "header__tipbar--text"
+    }
+  },
+  "rich-text#header__tipbar--item3": {
+    "title": "Slider Top Bar - ITEM 3",
+    "props": {
+      "text": "<a class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--header__tipbar--text' target='_blank' href='#'>15% off na primeira compra</a>",
+      "blockClass": "header__tipbar--text"
+    }
+  },
+  "rich-text#header__tipbar--item4": {
+    "title": "Slider Top Bar - ITEM 4",
+    "props": {
+      "text": "15% off na primeira compra",
+      "blockClass": "header__tipbar--text"
+    }
+  },
+  "rich-text#header__tipbar--item5": {
+    "title": "Slider Top Bar - ITEM 5",
+    "props": {
+      "text": "<a class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--header__tipbar--text' target='_blank' href='#'>15% off na primeira compra</a>",
+      "blockClass": "header__tipbar--text"
+    }
+  }
+}

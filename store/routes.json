@@ -1,0 +1,29 @@
+{
+  "store.custom#qs__institucional": {
+    "path": "/institucional/quem-somos"
+  },
+  "store.custom#st__institucional": {
+    "path": "/institucional/sustentabilidade"
+  },
+  "store.custom#sb__institucional": {
+    "path": "/institucional/sob-medida"
+  },
+  "store.custom#midia__institucional": {
+    "path": "/institucional/midia"
+  },
+  "store.custom#politicas__institucional": {
+    "path": "/institucional/politicas"
+  },
+  "store.custom#troca-e-devolucao__institucional": {
+    "path": "/institucional/trocas-e-devolucoes"
+  },
+  "store.custom#frete-e-entrega__institucional": {
+    "path": "/institucional/frete-e-entrega"
+  },
+  "store.custom#fale-conosco__institucional": {
+    "path": "/institucional/fale-conosco"
+  },
+  "store.custom#perguntas-frequentes__institucional": {
+    "path": "/institucional/perguntas-frequentes"
+  }
+}

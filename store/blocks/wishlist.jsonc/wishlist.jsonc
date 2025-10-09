@@ -1,0 +1,64 @@
+{
+  "store.wishlist": {
+    "blocks": [
+      "menu#wishlist__breadcrumb",
+      "rich-text#wishlist--title",
+      "cg-wishlist-product-count",
+      "list-context.wishlist#page"
+    ]
+  },
+  "rich-text#wishlist--title": {
+    "props": {
+      "text": "### Wishlist",
+      "blockClass": "wishlist--title"
+    }
+  },
+  "list-context.wishlist#page": {
+    "blocks": ["wishlist-empty-list", "product-summary.shelf#shelf"],
+    "children": ["list-context-renderer#wishlist__page"],
+    "props": {
+      "showViewEmptyList": true
+    }
+  },
+  "wishlist-empty-list": {
+    "children": ["rich-text#description-1"]
+  },
+  "rich-text#description-1": {
+    "props": {
+      "text": "",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  "list-context-renderer#wishlist__page": {
+    "props": {
+      "listElement": "ul",
+      "itemElement": "li",
+      "blockClass": "wishlist__products"
+    }
+  },
+  //ACCOUNT PAGE
+  "my-account-link.wishlist-link": {
+    "props": {
+      "label": "wishlist"
+    }
+  },
+  "my-account-page.wishlist-page": {
+    "props": {
+      "title": "wishlist"
+    },
+    "children": ["list-context.wishlist#account"]
+  },
+  "list-context.wishlist#account": {
+    "blocks": ["product-summary.shelf#shelf"],
+    "children": ["list-context-renderer#wishlist__account"]
+  },
+  "list-context-renderer#wishlist__account": {
+    "props": {
+      "listElement": "ul",
+      "itemElement": "li",
+      "blockClass": "wishlist__products--account"
+    }
+  }
+}

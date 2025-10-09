@@ -1,0 +1,103 @@
+{
+  "store.custom#sb__institucional": {
+    "blocks": [
+      "flex-layout.row#institucional-default__top",
+      "slider-layout#sb__slider-infos",
+      "rich-text#institucional-sobmedida__como-funciona",
+      "cg-sobmedida-slider",
+      "flex-layout.row#institucional-sob-medida__content",
+      "cg-sobmedida-form",
+      "list-context.image-list#sb-prefooter__banner"
+    ]
+  },
+
+  "rich-text#institucional-sobmedida__como-funciona": {
+    "title": "Como funciona",
+    "props": {
+      "text": "como funciona",
+      "blockClass": "institucional-como-funciona__text"
+    }
+  },
+
+  "cg-sobmedida-slider": {
+    "props": {
+      "sliderItems": [
+        {
+          "image": "assets/mock/institucional/sb_slider-1.png",
+          "title": "viva essa experiência",
+          "text": "Você já imaginou fazer um biquíni nas suas medidas? Sim, queremos dizer um biquíni que se ajuste ao seu corpo. Sabemos que cada mulher tem um biotipo, um estilo, um gosto que é único. Por isso, aqui na Suntime, você consegue fazer um biquíni modelado no seu corpo. Arraste para o lado e entenda o passo a passo do sob medida.",
+          "prevArrow": "",
+          "nextArrow": "confira o passo a passo",
+          "class": "first"
+        },
+        {
+          "image": "assets/mock/institucional/sb_slider-2.png",
+          "title": "1",
+          "text": "Agende um horário conosco para vir ao atelier. Deixe o seu contato no formulário abaixo e combinaremos um dia para te receber. Nossos atendimentos são com horários exclusivos, pois gostamos de atender cada cliente com tempo e dedicação personalizada.",
+          "prevArrow": "Início",
+          "nextArrow": "passo 2"
+        },
+        {
+          "image": "assets/mock/institucional/sb_slider-3.png",
+          "title": "2",
+          "text": "Iremos tirar as suas medidas e sugerir o modelo de peça ideal para o seu biotipo, considerando o seu estilo, cores, estampas e o que você curte e gosta de usar. Neste momento, gostamos muito das trocas e de ouvir as clientes.",
+          "prevArrow": "passo 1",
+          "nextArrow": "passo 3"
+        },
+        {
+          "image": "assets/mock/institucional/sb_slider-4.png",
+          "title": "3",
+          "text": "Fazemos a modelagem com as medidas do seu corpo. Um trabalho exclusivo para que a peça possa se adaptar perfeitamente em você. Já imaginou?",
+          "prevArrow": "passo 2",
+          "nextArrow": "passo 4"
+        },
+        {
+          "image": "assets/mock/institucional/sb_slider-5.png",
+          "title": "4",
+          "text": "Em nosso ateliê, nós cortamos o tecido nos moldes exclusivos e, então, costuramos sua peça sob medida. Uma partezinha de cada vez, com todo cuidado e carinho. ",
+          "prevArrow": "passo 3",
+          "nextArrow": "passo 5"
+        },
+        {
+          "image": "assets/mock/institucional/sb_slider-6.png",
+          "title": "5",
+          "text": "Dependendo do grau de complexidade do modelo, gostamos de fazer uma prova. Sim, este trabalho é praticamente alta-costura do Swimwear. Às vezes, a prova é fundamental, mas não sempre.",
+          "prevArrow": "passo 4",
+          "nextArrow": "passo 6"
+        },
+        {
+          "image": "assets/mock/institucional/sb_slider-7.png",
+          "title": "6",
+          "text": "Você recebe a peça na sua casa e feita especialmente para você. E aí, é só ir para a areia curtir o sol e brilhar com seu biquíni Suntime. Te esperamos!",
+          "prevArrow": "passo 5",
+          "nextArrow": "link",
+          "class": "last"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#institucional-sob-medida__content": {
+    "title": "INSTITUCIONAL - Sob Medida",
+    "children": ["info-card#sb__info-cards--item1"],
+    "props": {
+      "blockClass": "institucional-sb__container",
+      "colSizing": "auto"
+    }
+  },
+  "list-context.image-list#sb-prefooter__banner": {
+    "title": "INSTITUCIONAL - Banner Pre Footer",
+    "children": ["slider-layout#institucional__prefooter__banner--slider"],
+    "props": {
+      "preload": true,
+      "height": "",
+      "images": [
+        {
+          "loading": "lazy",
+          "image": "assets/mock/institucional/sb-prefooter-banner.png",
+          "mobileImage": "assets/mock/institucional/sb-prefooter-banner-mob.png",
+          "description": "banner"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "info-card#sb__info-cards--item1": {
+    "title": "Info Card",
+    "props": {
+      "imageUrl": "assets/mock/institucional/sb_infocard-1.png",
+      "textMode": "rich-text",
+
+      "headline": "# nosso ateliê",
+      "subhead": "Um lugar para você brilhar: Fizemos um lugar para te receber bem, seja para criar uma peça sob medida para você, ou dar uma espiada nas peças novas (sempre tem) e até mesmo tomar um bom café com a gente!",
+      "textPosition": "right",
+      "callToActionText": "agendar uma visita",
+      "callToActionUrl": "#SobMedidaForm",
+      "imageActionUrl": "",
+      "blockClass": "sb__info-cards--item"
+    }
+  }
+}

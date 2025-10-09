@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#footer--security": {
+    "children": [
+      "image#lock-on",
+      "image#letsencrypt",
+      "image#vtex",
+      "image#google",
+      "image#commercegrowth"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "footer--security"
+    }
+  },
+  "image#lock-on": {
+    "props": {
+      "src": "assets/icons/icon-lock-on.svg",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCrjQpfnckPh_4RmD51J8zkw/featured",
+        "newTab": true
+      },
+      "blockClass": ["security", "lock-on"]
+    }
+  },
+  "image#letsencrypt": {
+    "props": {
+      "src": "assets/icons/selo-lets-encrypt.png",
+      "link": {
+        "url": "https://letsencrypt.org/",
+        "newTab": true
+      },
+      "blockClass": "security"
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "src": "assets/icons/icon-vtex.svg",
+      "link": {
+        "url": "https://vtex.com/br-pt/",
+        "newTab": true
+      },
+      "blockClass": "security"
+    }
+  },
+  "image#google": {
+    "props": {
+      "src": "assets/icons/icon-google.svg",
+      "link": {
+        "url": "https://transparencyreport.google.com/safe-browsing/overview?hl=pt_BR",
+        "newTab": true
+      },
+      "blockClass": "security--google"
+    }
+  },
+  "image#commercegrowth": {
+    "props": {
+      "src": "assets/icons/icon-commercegrowth.svg",
+      "link": {
+        "url": "https://commercegrowth.ag/",
+        "newTab": true
+      },
+      "blockClass": "security"
+    }
+  }
+}

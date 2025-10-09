@@ -1,0 +1,36 @@
+{
+  "modal-trigger#product__guia--trigger": {
+    "props": {
+      "blockClass": "product__info--guia"
+    },
+    "children": [
+      "rich-text#product__guia--triggertext",
+      "modal-layout#image-guia"
+    ]
+  },
+  "disclosure-content#product__guia--content": {
+    "props": {
+      "blockClass": "product__info--guia"
+    },
+    "children": ["image#guia"]
+  },
+  "rich-text#product__guia--triggertext": {
+    "props": {
+      "blockClass": "product__info--guia",
+      "text": "![icon-guia](assets/icons/icon-guia.svg) tabela de medidas"
+    }
+  },
+  "modal-layout#image-guia": {
+    "children": ["image#guia", "modal-actions.close#image-guia"]
+  },
+  "modal-actions.close#image-guia": {
+    "props": {
+      "label": "x"
+    }
+  },
+  "image#guia": {
+    "props": {
+      "src": "https://suntime.vteximg.com.br/arquivos/ids/169475-780-1169/tabela_de_medidas.png"
+    }
+  }
+}

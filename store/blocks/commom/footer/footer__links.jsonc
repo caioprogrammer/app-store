@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#footer__links": {
+    "title": "FOOTER - Links",
+    "children": [
+      "flex-layout.col#footer__links-1",
+      "flex-layout.col#footer__quem-somos",
+      "flex-layout.col#footer__nossas-politicas",
+      "flex-layout.col#footer__links-4"
+    ],
+    "props": {
+      "blockClass": "footer__links",
+      "colSizing": "auto"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#footer__copyright": {
+    "title": "FOOTER - copyright",
+    "children": ["rich-text#footer__copyright"],
+    "props": {
+      "blockClass": "footer__copyright",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#footer__copyright": {
+    "props": {
+      "text": "CNPJ 26.665.791/0001-62 | Rua Bandeira Paulista, 600 conjunto 84 - Itaim Bibi - Cep: 04532-001 São Paulo - SP | Todos os direitos reservados C 2023",
+      "blockClass": "footer__copyright--text"
+    }
+  }
+}

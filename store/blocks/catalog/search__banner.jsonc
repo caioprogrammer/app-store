@@ -1,0 +1,32 @@
+{
+  "slider-layout#search__banner-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false,
+      "showPaginationDots": "mobileOnly",
+      "showNavigationArrows": "never",
+      "blockClass": "search__banner"
+    }
+  },
+  "list-context.image-list#search__banner": {
+    "title": "Banner Principal",
+    "children": ["slider-layout#search__banner-slider"],
+    "props": {
+      "preload": true,
+      "height": "",
+      "images": [
+        {
+          "loading": "lazy",
+          "image": "https://suntime.vteximg.com.br/arquivos/ids/162685/bannerhead_biquinis_summer3.jpg",
+          "mobileImage": "https://suntime.vteximg.com.br/arquivos/ids/162685/bannerhead_biquinis_summer3.jpg?v=638011836446600000",
+          "description": "banner busca"
+        }
+      ],
+      "blockClass": "search__banner"
+    }
+  }
+}

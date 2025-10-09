@@ -1,0 +1,139 @@
+{
+  "flex-layout.row#header__content": {
+    "children": [
+      "image#icon-logo",
+      "flex-layout.row#header__icons"
+    ],
+    "props": {
+      "blockClass": ["header__content"],
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.row#header__menu-logo": {
+    "children": ["image#icon-logo-minified", "cg-main-menu"],
+    "props": {
+      "blockClass": ["header__menu-logo"],
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "preventHorizontalStretch": false
+    }
+  },
+  "flex-layout.row#header__content--mobile": {
+    "children": [
+      "cg-main-menu",
+      "image#icon-logo",
+      "flex-layout.row#header__icons--mobile"
+    ],
+    "props": {
+      "blockClass": ["header__content"],
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "preventHorizontalStretch": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#shelf-search"]
+  },
+  "search-bar#header__search": {
+    "title": "busca",
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "blockClass": "header__search",
+      "hideTitles": true,
+      "placeholder": "Digite aqui sua busca",
+      "compactMode": false,
+      "containerMode": "overlay",
+      "displayMode": "search-button"
+    }
+  },
+  "flex-layout.row#header__icons": {
+    "title": "HEADER - Icones",
+    "children": [
+      "disclosure-layout#header__search--mobile",
+      "cg-login-button",
+      "image#icon-wishlist",
+      "minicart.v2#header__minicart"
+    ],
+    "props": {
+      "blockClass": "header__icons",
+      "colSizing": "auto"
+    }
+  },
+  "cg-login-button": {
+    "children": ["login"]
+  },
+  "flex-layout.row#header__icons--mobile": {
+    "title": "HEADER - Icones",
+    "children": [
+      "disclosure-layout#header__search--mobile",
+      // "cg-login-button", 
+      "minicart.v2#header__minicart"
+    ],
+    "props": {
+      "blockClass": "header__icons"
+    }
+  },
+  "image#icon-logo": {
+    "title": "HEADER - logo",
+    "props": {
+      "blockClass": "logo",
+      "src": "assets/icons/icon-logo.svg",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#icon-logo-minified": {
+    "title": "HEADER - logo",
+    "props": {
+      "blockClass": "logo-minified",
+      "src": "assets/icons/icon-logo-minified.svg",
+      "link": {
+        "url": "/"
+      }
+    }
+  },
+  "image#icon-wishlist": {
+    "title": "icone - wishlist",
+    "props": {
+      "src": "assets/icons/icon-hearth.svg",
+      "blockClass": ["header__icon", "header__icon-wishlist"],
+      "maxWidth": 24,
+      "link": {
+        "url": "/wishlist"
+      }
+    }
+  },
+  "disclosure-layout#header__search--mobile": {
+    "props": {
+      "blockClass": "header__search--mobile",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#header__search--mobile--trigger",
+      "disclosure-content#header__search--mobile--content"
+    ]
+  },
+  "disclosure-trigger#header__search--mobile--trigger": {
+    "props": {
+      "blockClass": "header__search--mobile"
+    },
+    "children": ["image#icon-search"]
+  },
+  "disclosure-content#header__search--mobile--content": {
+    "props": {
+      "blockClass": "header__search--mobile"
+    },
+    "children": ["search-bar#header__search"]
+  },
+  "image#icon-search": {
+    "title": "icone - busca",
+    "props": {
+      "blockClass": "lupa",
+      "src": "assets/icons/icon-search-mobile.svg"
+    }
+  }
+}

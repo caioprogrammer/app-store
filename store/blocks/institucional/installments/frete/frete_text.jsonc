@@ -1,0 +1,9 @@
+{
+  "rich-text#frete-e-entrega-frete-e-entrega": {
+    "title": "Frete e Entrega",
+    "props": {
+      "text": "# frete e entrega\nO prazo de entrega começa a ser contado a partir da aprovação de pagamento do pedido e varia de acordo com a forma escolhida na finalização da compra:<br><br>Entrega PAC: até 14 dias úteis (pode variar de acordo com a localidade)<br>Entrega E-SEDEX: até 7 dias úteis (pode variar de acordo com a localidade)<br>Entrega Região São Paulo: Até 2 dias úteis<br><br>O valor do frete é de total responsabilidade do cliente. Lembrando que nas compras acima de R$399,00 ou, eventualmente, durante ações comerciais específicas, o frete é grátis (somente via PAC).<br><br>O Prazo de Entrega pode sofrer alterações caso haja eventuais atrasos em função de condições climáticas, tráfego de aeroportos, greve dos Correios, condições das rodovias e outros motivos de força maior.<br><br>É importante ressaltar que você deve recusar imediatamente o recebimento do seu produto caso:<br><br>A embalagem do produto esteja violada;<br>O produto apresentar avarias;<br>Pedido em desacordo com o solicitado no e-commerce.<br><br>A Suntime não pode se responsabilizar caso seu pedido seja recebido sem as conferências acima.",
+      "blockClass": "installments-default__text"
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "disclosure-layout#perguntas-frequentes__item1": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#perguntas-frequentes__item1--trigger",
+      "disclosure-content#perguntas-frequentes__item1--content"
+    ]
+  },
+  "disclosure-trigger#perguntas-frequentes__item1--trigger": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item1--triggertext"]
+  },
+  "disclosure-content#perguntas-frequentes__item1--content": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item1--content"]
+  },
+  "rich-text#perguntas-frequentes__item1--triggertext": {
+    "props": {
+      "text": "qual é o material das peças?",
+      "blockClass": "perguntas-frequentes--description"
+    }
+  },
+  "rich-text#perguntas-frequentes__item1--content": {
+    "props": {
+      "text": "Nossas peças são confeccionadas com tecido composto por poliamida biodegradável e elastano. O fio de poliamida, batizado de AMNI® Soul Eco foi pesquisado e desenvolvido pela Rhodia® Solvay®, aprimorado para permitir que roupas feitas a partir dele se decomponham em até 3 anos quando descartadas corretamente. A malha tem proteção UV 50 contra radiação ultravioleta (conforme norma ARPANSA AS/NZS4399:1996) e é isento de produtos tóxicos para a pele humana conforme certificação internacional Oeko-Tex 100 Classe II.",
+      "blockClass": "perguntas-frequentes--description-text"
+    }
+  },
+
+  ////////////////////////
+  "disclosure-layout#perguntas-frequentes__item2": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#perguntas-frequentes__item2--trigger",
+      "disclosure-content#perguntas-frequentes__item2--content"
+    ]
+  },
+  "disclosure-trigger#perguntas-frequentes__item2--trigger": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item2--triggertext"]
+  },
+  "disclosure-content#perguntas-frequentes__item2--content": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item2--content"]
+  },
+  "rich-text#perguntas-frequentes__item2--triggertext": {
+    "props": {
+      "text": "Posso enviar meu pedido para outro endereço (Como presente para uma amiga)? ",
+      "blockClass": "perguntas-frequentes--description"
+    }
+  },
+  "rich-text#perguntas-frequentes__item2--content": {
+    "props": {
+      "text": "Posso enviar meu pedido para outro endereço (Como presente para uma amiga)?",
+      "blockClass": "perguntas-frequentes--description-text"
+    }
+  },
+
+  ////////////////////////
+  "disclosure-layout#perguntas-frequentes__item3": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#perguntas-frequentes__item3--trigger",
+      "disclosure-content#perguntas-frequentes__item3--content"
+    ]
+  },
+  "disclosure-trigger#perguntas-frequentes__item3--trigger": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item3--triggertext"]
+  },
+  "disclosure-content#perguntas-frequentes__item3--content": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item3--content"]
+  },
+  "rich-text#perguntas-frequentes__item3--triggertext": {
+    "props": {
+      "text": "Quais são as formas de pagamento?",
+      "blockClass": "perguntas-frequentes--description"
+    }
+  },
+  "rich-text#perguntas-frequentes__item3--content": {
+    "props": {
+      "text": "Aceitamos todas as bandeiras de cartão de crédito e boleto bancário.",
+      "blockClass": "perguntas-frequentes--description-text"
+    }
+  },
+
+  ////////////////////////
+  "disclosure-layout#perguntas-frequentes__item4": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#perguntas-frequentes__item4--trigger",
+      "disclosure-content#perguntas-frequentes__item4--content"
+    ]
+  },
+  "disclosure-trigger#perguntas-frequentes__item4--trigger": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item4--triggertext"]
+  },
+  "disclosure-content#perguntas-frequentes__item4--content": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item4--content"]
+  },
+  "rich-text#perguntas-frequentes__item4--triggertext": {
+    "props": {
+      "text": "Quanto tempo leva para o meu pedido chegar?",
+      "blockClass": "perguntas-frequentes--description"
+    }
+  },
+  "rich-text#perguntas-frequentes__item4--content": {
+    "props": {
+      "text": "O prazo de entrega começa a ser contado a partir da aprovação de pagamento do pedido e varia de acordo com a forma escolhida na finalização da compra. Entregas via PAC podem levar até 14 dias úteis, dependendo da localidade. Entregas via Sedex podem levar até 7 dias úteis, dependendo da localidade. Entregas na cidade de São Paulo levam até 2 dias úteis caso seja item a pronta-entrega.",
+      "blockClass": "perguntas-frequentes--description-text"
+    }
+  },
+
+  ////////////////////////
+  "disclosure-layout#perguntas-frequentes__item5": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#perguntas-frequentes__item5--trigger",
+      "disclosure-content#perguntas-frequentes__item5--content"
+    ]
+  },
+  "disclosure-trigger#perguntas-frequentes__item5--trigger": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item5--triggertext"]
+  },
+  "disclosure-content#perguntas-frequentes__item5--content": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item5--content"]
+  },
+  "rich-text#perguntas-frequentes__item5--triggertext": {
+    "props": {
+      "text": "Como faço para realizar uma devolução?",
+      "blockClass": "perguntas-frequentes--description"
+    }
+  },
+  "rich-text#perguntas-frequentes__item5--content": {
+    "props": {
+      "text": "Entre em contato conosco através do email contato@suntime.com.br ou telefone (011) 4323-5706 que iremos passar as orientações para a devolução do produto.",
+      "blockClass": "perguntas-frequentes--description-text"
+    }
+  },
+
+  ////////////////////////
+  "disclosure-layout#perguntas-frequentes__item6": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#perguntas-frequentes__item6--trigger",
+      "disclosure-content#perguntas-frequentes__item6--content"
+    ]
+  },
+  "disclosure-trigger#perguntas-frequentes__item6--trigger": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item6--triggertext"]
+  },
+  "disclosure-content#perguntas-frequentes__item6--content": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item6--content"]
+  },
+  "rich-text#perguntas-frequentes__item6--triggertext": {
+    "props": {
+      "text": "Posso atualizar meus dados após uma compra? Pois coloquei meu endereço errado",
+      "blockClass": "perguntas-frequentes--description"
+    }
+  },
+  "rich-text#perguntas-frequentes__item6--content": {
+    "props": {
+      "text": "Sim, pode. Envie um e-mail para contato@suntime.com.br, requisitando a mudança de endereço.",
+      "blockClass": "perguntas-frequentes--description-text"
+    }
+  },
+
+  ////////////////////////
+  "disclosure-layout#perguntas-frequentes__item7": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description",
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#perguntas-frequentes__item7--trigger",
+      "disclosure-content#perguntas-frequentes__item7--content"
+    ]
+  },
+  "disclosure-trigger#perguntas-frequentes__item7--trigger": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item7--triggertext"]
+  },
+  "disclosure-content#perguntas-frequentes__item7--content": {
+    "props": {
+      "blockClass": "perguntas-frequentes--description"
+    },
+    "children": ["rich-text#perguntas-frequentes__item7--content"]
+  },
+  "rich-text#perguntas-frequentes__item7--triggertext": {
+    "props": {
+      "text": "Como é o procedimento de estorno?",
+      "blockClass": "perguntas-frequentes--description"
+    }
+  },
+  "rich-text#perguntas-frequentes__item7--content": {
+    "props": {
+      "text": "Ao efetuar a solicitação de devolução na página ‘Minhas Devoluções’ você pode selecionar a forma que deseja receber a restituição dos valores, estorno ou cupom de crédito.",
+      "blockClass": "perguntas-frequentes--description-text"
+    }
+  }
+
+  ////////////////////////
+}

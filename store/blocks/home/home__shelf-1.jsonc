@@ -1,0 +1,32 @@
+{
+  "rich-text#home__shelf--title-1": {
+    "title": "HOME - Titulo vitrine de produtos",
+    "props": {
+      "text": "[novidades](https://link)",
+      "blockClass": "home__shelf--title-1"
+    }
+  },
+  "list-context.product-list#home__shelf--1": {
+    "title": "HOME - Carousel de produtos",
+    "blocks": ["product-summary.shelf#shelf"],
+    "children": ["slider-layout#shelf__slider"],
+    "props": {
+      "skusFilter": "ALL"
+    }
+  },
+  "slider-layout#shelf__slider": {
+    "title": "produtos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+
+      "blockClass": "home__shelf--carousel"
+    }
+  }
+}

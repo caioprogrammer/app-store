@@ -1,0 +1,74 @@
+{
+  "vtex.store-components:product-name#product__info--name": {
+    "props": {
+      "blockClass": "product__info--name"
+    }
+  },
+  "product-price#product__info--price": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": false,
+      "blockClass": "product__info--price"
+    }
+  },
+  "flex-layout.row#product__info--skuWrapper": {
+    "children": ["sku-selector#product__info--sku"],
+    "props": {
+      "blockClass": "product__info--skuWrapper"
+    }
+  },
+  "sku-selector#product__info--sku": {
+    "props": {
+      "thumbnailImage": ["LabelName"],
+      "blockClass": "product__info--sku",
+      "initialSelection": "empty"
+    }
+  },
+  "add-to-cart-button#product__info--buy": {
+    "props": {
+      "blockClass": "product__info--buy"
+      // "buyButtonText": "adicionar à sacola",
+      // "shouldOpenMinicart": true
+    }
+  },
+  "availability-notify#product__info--unavailable": {
+    "props": {
+      "blockClass": "product__info--unavailable"
+    }
+  },
+  "availability-notify#product__info--unavailable-kit-look": {
+    "props": {
+      "blockClass": "product__info--unavailable-kit-look"
+    }
+  },
+  "product-list-price#product__info--list-price": {
+    "props": {
+      "blockClass": "product__info--list-price",
+      "alwaysShow": true
+    }
+  },
+  "product-selling-price#product__info--selling-price": {
+    "props": {
+      "blockClass": "product__info--selling-price",
+      "alwaysShow": true
+    }
+  },
+  "product-installments#product__info--installments": {
+    "props": {
+      "blockClass": "product__info--installments",
+      "alwaysShow": true
+    }
+  },
+  "rich-text#product-installments": {
+    "props": {
+      "text": "- ![lock on](assets/icons/lock-on-pdp.svg) ambiente 100% seguro\n- ![frete grátis](assets/icons/icon-truck-pdp.svg) frete grátis acima de r$ 750,00\n- ![folha](assets/icons/icon-leaf-pdp.svg) opção de entrega carbono zero",
+      "blockClass": "product-installments"
+    }
+  },
+  "product-identifier.product": {
+    "props": {
+      "label": "custom",
+      "customLabel": "Ref"
+    }
+  }
+}

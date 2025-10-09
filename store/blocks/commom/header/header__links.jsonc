@@ -1,0 +1,468 @@
+{
+  "cg-main-menu": {
+    "props": {
+      "customLinks": [
+        {
+          "name": "NEW IN",
+          "href": "/novidades",
+          "order": 1,
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "biquínis",
+              "href": "/new-in/biquinis",
+              "order": 1
+            },
+            {
+              "name": "tops",
+              "href": "/new-in/tops",
+              "order": 2
+            },
+            {
+              "name": "calcinhas",
+              "href": "/new-in/calcinhas",
+              "order": 3
+            },
+            {
+              "name": "maiôs",
+              "href": "/new-in/maiôs",
+              "order": 4
+            },
+            {
+              "name": "saídas de praia",
+              "href": "/new-in/saidas-de-praia",
+              "order": 5
+            }
+          ],
+          "banners": [
+            {
+              "name": "coleção contour",
+              "image": "assets/mock/header/newin1.png",
+              "link": "#"
+            },
+            {
+              "name": "colecão bem me quero",
+              "image": "assets/mock/header/newin2.png",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "name": "SOB MEDIDA",
+          "href": "/institucional/sob-medida",
+          "order": 2,
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "conheça o passo a passo",
+              "href": "/institucional/sob-medida",
+              "order": 1
+            },
+            {
+              "name": "agendar agora",
+              "href": "/institucional/sob-medida#SobMedidaForm",
+              "order": 2
+            }
+          ],
+          "banners": [
+            {
+              "name": "faça seu biquíni sob medida",
+              "image": "assets/mock/header/sobmedida1.png",
+              "link": "#"
+            },
+            {
+              "name": "pensado para seu corpo",
+              "image": "assets/mock/header/sobmedida2.png",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "name": "MODA PRAIA",
+          "href": "/moda-praia",
+          "order": 3,
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Bíquinis",
+              "href": "/moda-praia/biquinis",
+              "order": 1
+            },
+            {
+              "name": "Tops",
+              "href": "/moda-praia/tops",
+              "order": 2,
+              "children": [
+                {
+                  "name": "triângulo",
+                  "href": "/moda-praia/tops",
+                  "order": 1
+                },
+                {
+                  "name": "bandeau",
+                  "href": "/moda-praia/tops/bandeau",
+                  "order": 2
+                },
+                {
+                  "name": "top com aro",
+                  "href": "/moda-praia/tops/top-com-aro",
+                  "order": 3
+                },
+                {
+                  "name": "halter",
+                  "href": "/moda-praia/tops/halter",
+                  "order": 4
+                },
+                {
+                  "name": "fashion",
+                  "href": "/moda-praia/tops/fashion",
+                  "order": 5
+                },
+                {
+                  "name": "sustentação",
+                  "href": "/moda-praia/tops/sustentacao",
+                  "order": 6
+                },
+                {
+                  "name": "ver todos",
+                  "href": "/moda-praia/tops",
+                  "order": 7
+                }
+              ]
+            },
+            {
+              "name": "Calcinhas",
+              "href": "/moda-praia/calcinhas",
+              "order": 3,
+              "children": [
+                {
+                  "name": "mini",
+                  "href": "/moda-praia/calcinhas//mini",
+                  "order": 1
+                },
+                {
+                  "name": "midi",
+                  "href": "/moda-praia/calcinhas/midi",
+                  "order": 2
+                },
+                {
+                  "name": "maxi",
+                  "href": "/moda-praia/calcinhas/tops-maxi",
+                  "order": 3
+                },
+                {
+                  "name": "hot pant",
+                  "href": "/moda-praia/calcinhas/hot-pant",
+                  "order": 4
+                },
+                {
+                  "name": "lacinho",
+                  "href": "/moda-praia/calcinhas/lacinho",
+                  "order": 4
+                },
+                {
+                  "name": "ver todos",
+                  "href": "/moda-praia/calcinhas/",
+                  "order": 7
+                }
+              ]
+            },
+            {
+              "name": "Maiôs",
+              "href": "/moda-praia/maios",
+              "order": 4
+            },
+            {
+              "name": "Saídas de Praia",
+              "href": "/moda-praia/saidas-de-praia",
+              "order": 5,
+
+              "children": [
+                {
+                  "name": "camisão",
+                  "href": "/moda-praia/tops/camisao",
+                  "order": 1
+                },
+                {
+                  "name": "cangas",
+                  "href": "/moda-praia/tops/cangas",
+                  "order": 2
+                },
+                {
+                  "name": "kaftans & kimonos",
+                  "href": "/moda-praia/tops/kaftans---kimonos",
+                  "order": 3
+                },
+                {
+                  "name": "saidas curtas",
+                  "href": "/moda-praia/tops/saidas-curtas",
+                  "order": 4
+                },
+                {
+                  "name": "saidas longas",
+                  "href": "/moda-praia/tops/saidas-longas",
+                  "order": 4
+                },
+                {
+                  "name": "saidas midi",
+                  "href": "/moda-praia/tops/saidas-midi",
+                  "order": 7
+                }
+              ]
+            },
+            {
+              "name": "ver tudo",
+              "href": "/moda-praia",
+              "order": 6
+            }
+          ],
+          "banners": [
+            {
+              "name": "signature collection: Falésias",
+              "image": "assets/mock/header/submenu1.png",
+              "link": "#"
+            },
+            {
+              "name": "biquínis sustentáveis: greenkini",
+              "image": "assets/mock/header/submenu2.png",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "name": "MODA RESORT",
+          "href": "/moda-resort?O=OrderByReleaseDateDESC",
+          "order": 4,
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Blusas",
+              "href": "/moda-resort/blusas",
+              "order": 1
+            },
+            {
+              "name": "Calças",
+              "href": "/moda-resort/calcas",
+              "order": 2
+            },
+            {
+              "name": "Shorts",
+              "href": "/moda-resort/shorts",
+              "order": 3
+            },
+            {
+              "name": "Camisas",
+              "href": "/moda-resort/camisas",
+              "order": 4
+            },
+            {
+              "name": "Vestidos",
+              "href": "/moda-resort/vestidos",
+              "order": 5
+            },
+            {
+              "name": "Saias",
+              "href": "/moda-resort/saias",
+              "order": 6
+            },
+            {
+              "name": "Saídas de Praia",
+              "href": "/moda-resort/saidas-de-praia",
+              "order": 7
+            },
+            {
+              "name": "Macacão",
+              "href": "/moda-resort/macacao",
+              "order": 8
+            },
+            {
+              "name": "Pijamas",
+              "href": "/moda-resort/pijamas",
+              "order": 9
+            },
+            {
+              "name": "Easywear",
+              "href": "/moda-resort/easywear",
+              "order": 10
+            },
+            {
+              "name": "Alfaiataria",
+              "href": "/moda-resort/alfaiataria",
+              "order": 11
+            },
+            {
+              "name": "Acessórios",
+              "href": "/moda-resort/acessorios",
+              "order": 12
+            },
+            {
+              "name": "ver tudo",
+              "href": "/moda-resort",
+              "order": 13
+            }
+          ],
+          "banners": [
+            {
+              "name": "o melhor do resortwear",
+              "image": "assets/mock/header/resort1.png",
+              "link": "#"
+            },
+            {
+              "name": "camisão concha em seda pura",
+              "image": "assets/mock/header/resort2.png",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "name": "FITNESS",
+          "href": "/ballet-fitness?O=OrderByScoreASC",
+          "order": 5,
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Leggings & Calças",
+              "href": "/ballet%20fitness/calca---legging",
+              "order": 1
+            },
+            {
+              "name": "Body",
+              "href": "/ballet%20fitness/body",
+              "order": 2
+            },
+            {
+              "name": "Tops",
+              "href": "/ballet%20fitness/top",
+              "order": 3
+            },
+            {
+              "name": "Shorts & Saias",
+              "href": "/ballet%20fitness/shorts---saias",
+              "order": 4
+            },
+            {
+              "name": "Camisetas",
+              "href": "/fitness/camisetas",
+              "order": 5
+            },
+            {
+              "name": "Jackets",
+              "href": "/ballet%20fitness/jackets",
+              "order": 6
+            },
+            {
+              "name": "Acessórios",
+              "href": "/fitness/acessorios",
+              "order": 7
+            },
+            {
+              "name": "ver tudo",
+              "href": "/fitness",
+              "order": 8
+            }
+          ],
+          "banners": [
+            {
+              "name": "Fitness com tecnologia e biodegradável",
+              "image": "assets/mock/header/fitness1.png",
+              "link": "#"
+            },
+            {
+              "name": "corta-vento novas cores",
+              "image": "assets/mock/header/fitness2.png",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "name": "COLLAB",
+          "href": "/collabs",
+          "order": 6,
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Biquínis",
+              "href": "/collabs/biquinis",
+              "order": 1
+            },
+            {
+              "name": "Maiôs",
+              "href": "/collabs/maios",
+              "order": 2
+            },
+            {
+              "name": "Resort",
+              "href": "/collabs/resort",
+              "order": 3
+            },
+            {
+              "name": "Acessórios",
+              "href": "/collabs/acessorios",
+              "order": 4
+            },
+            {
+              "name": "ver tudo",
+              "href": "/collabs",
+              "order": 5
+            }
+          ]
+        },
+        {
+          "name": "OFF",
+          "href": "/sale",
+          "order": 7,
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Bíquinis",
+              "href": "/off/biquinis",
+              "order": 1
+            },
+            {
+              "name": "Tops",
+              "href": "/off/top",
+              "order": 2
+            },
+            {
+              "name": "Calcinhas",
+              "href": "/off/bottom",
+              "order": 3
+            },
+            {
+              "name": "Maiôs",
+              "href": "/off/maios",
+              "order": 4
+            },
+            {
+              "name": "Saídas de Praia",
+              "href": "/off/saidas-de-praia",
+              "order": 5
+            },
+            {
+              "name": "Resort",
+              "href": "/off/resort",
+              "order": 6
+            },
+            {
+              "name": "ver tudo",
+              "href": "/off",
+              "order": 7
+            }
+          ],
+          "banners": [
+            {
+              "name": "SALE selection",
+              "image": "assets/mock/header/off1.png",
+              "link": "#"
+            },
+            {
+              "name": "+70% OFF",
+              "image": "assets/mock/header/off22.png",
+              "link": "#"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

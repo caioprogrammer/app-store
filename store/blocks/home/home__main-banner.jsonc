@@ -1,0 +1,54 @@
+{
+  "slider-layout#home__main-banner--slider": {
+    "title": "HOME - Banner Principal - slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 5000
+      },
+      "showPaginationDots": "always",
+      "showNavigationArrows": "never",
+      "blockClass": "home__main-banner"
+    }
+  },
+  "list-context.image-list#home__main-banner": {
+    "title": "HOME - Banner Principal",
+    "children": ["slider-layout#home__main-banner--slider"],
+    "props": {
+      "preload": true,
+      "height": "",
+      "images": [
+        {
+          "loading": "lazy",
+          "image": "https://suntime.vteximg.com.br/arquivos/ids/164129/winter_sale_inverno%20co%C2%B4pia.jpg",
+          "mobileImage": "https://suntime.vteximg.com.br/arquivos/ids/164164/madrepe%C2%B4rola_mobile_v2.jpg",
+          "description": "something something"
+        },
+        {
+          "loading": "lazy",
+          "image": "https://suntime.vteximg.com.br/arquivos/ids/164127/palms_1novo_banner_site%20co%C2%B4pia.jpg",
+          "mobileImage": "https://suntime.vteximg.com.br/arquivos/ids/164163/summer_serena_mobile_v1.jpg",
+          "description": "something something"
+        },
+        {
+          "loading": "lazy",
+          "image": "https://suntime.vteximg.com.br/arquivos/ids/162107/brisa1.jpg",
+          "mobileImage": "https://suntime.vteximg.com.br/arquivos/ids/164162/contour_mobile_v1.jpg",
+          "description": "something something"
+        },
+        {
+          "loading": "lazy",
+          "image": "https://suntime.vteximg.com.br/arquivos/ids/164130/banner_sobmedida%20copiar.jpg",
+          "mobileImage": "https://suntime.vteximg.com.br/arquivos/ids/164158/sobmedida_camila.jpg",
+          "description": "something something"
+        }
+      ],
+      "blockClass": "home__main-banner"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "flex-layout.col#footer__links-4": {
+    "children": ["flex-layout.row#payments", "flex-layout.row#social"],
+    "props": {
+      "blockClass": "footer__column--images"
+    }
+  },
+  "flex-layout.row#payments": {
+    "children": [
+      "image#selo-boleto",
+      "image#selo-visa",
+      "image#selo-mastercard",
+      "image#selo-diners",
+      "image#selo-amex",
+      "image#selo-pix"
+    ],
+    "props": {
+      "blockClass": "footer__column--payments",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#social": {
+    "children": [
+      "image#instagram",
+      "image#facebook",
+      "image#pinterest",
+      "image#youtube"
+    ],
+    "props": {
+      "blockClass": "footer__column--social",
+      "colSizing": "auto"
+    }
+  },
+  "image#selo-boleto": {
+    "props": {
+      "src": "assets/icons/icon-boleto.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#selo-visa": {
+    "props": {
+      "src": "assets/icons/icon-visa.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#selo-diners": {
+    "props": {
+      "src": "assets/icons/icon-diners.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#selo-amex": {
+    "props": {
+      "src": "assets/icons/icon-amex.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#selo-mastercard": {
+    "props": {
+      "src": "assets/icons/icon-mastercard.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#selo-pix": {
+    "props": {
+      "src": "assets/icons/icon-pix.svg",
+      "blockClass": "selo"
+    }
+  },
+  "image#selo-lets": {
+    "props": {
+      "src": "assets/icons/selo-lets-encrypt.png",
+      "blockClass": "selo"
+    }
+  },
+  "image#instagram": {
+    "props": {
+      "src": "assets/icons/icon-instagram.svg",
+      "link": {
+        "url": "https://www.instagram.com/suntime.swim/",
+        "newTab": true
+      },
+      "blockClass": "selo"
+    }
+  },
+  "image#facebook": {
+    "props": {
+      "src": "assets/icons/icon-facebook.svg",
+      "link": {
+        "url": "https://www.facebook.com/suntime.swim/",
+        "newTab": true
+      },
+      "blockClass": "selo"
+    }
+  },
+  "image#pinterest": {
+    "props": {
+      "src": "assets/icons/icon-pinterest.svg",
+      "link": {
+        "url": "https://br.pinterest.com/suntimeswim/",
+        "newTab": true
+      },
+      "blockClass": "selo"
+    }
+  },
+  "image#youtube": {
+    "props": {
+      "src": "assets/icons/icon-youtube.svg",
+      "link": {
+        "url": "https://www.youtube.com/channel/UCrjQpfnckPh_4RmD51J8zkw/featured",
+        "newTab": true
+      },
+      "blockClass": "selo"
+    }
+  }
+}

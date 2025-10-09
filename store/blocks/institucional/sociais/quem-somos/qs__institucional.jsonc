@@ -1,0 +1,164 @@
+{
+  "store.custom#qs__institucional": {
+    "blocks": [
+      "flex-layout.row#institucional-default__top",
+      "list-context.image-list#qs__banner",
+      "flex-layout.row#institucional-quem-somos__content"
+    ]
+  },
+  "flex-layout.row#institucional-quem-somos__content": {
+    "title": "INSTITUCIONAL",
+    "children": ["flex-layout.col#institucional-default__content"],
+    "props": {
+      "blockClass": "institucional-default__container",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#institucional-default__top": {
+    "children": [
+      "menu#institucional-default__breadcrumb",
+      "disclosure-layout#institucional-default__menu-dropdown"
+    ],
+    "props": {
+      "blockClass": "institucional-quem-somos__top",
+      "colSizing": "auto"
+    }
+  },
+  "menu#institucional-default__breadcrumb": {
+    "title": "INSTITUCIONAL - breadcrumb",
+    "props": {
+      "blockClass": "institucional-default__breadcrumb",
+      "items": [
+        {
+          "id": "breadcrumb-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "home",
+            "text": "home"
+          }
+        },
+        {
+          "id": "breadcrumb-2",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "institucional",
+            "text": "institucional"
+          }
+        }
+      ]
+    }
+  },
+  "menu#institucional-default__menu": {
+    "title": "INSTITUCIONAL - menu",
+    "props": {
+      "blockClass": "institucional-default__menu",
+      "items": [
+        {
+          "id": "menu-item-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/quem-somos",
+            "noFollow": false,
+            "tagTitle": "quem somos",
+            "text": "quem somos"
+          }
+        },
+        {
+          "id": "menu-item-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/sustentabilidade",
+            "noFollow": false,
+            "tagTitle": "sustentabilidade",
+            "text": "sustentabilidade"
+          }
+        },
+        {
+          "id": "menu-item-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/sob-medida",
+            "noFollow": false,
+            "tagTitle": "sob-medida",
+            "text": "sob-medida"
+          }
+        },
+        {
+          "id": "menu-item-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/midia",
+            "noFollow": false,
+            "tagTitle": "mídia",
+            "text": "mídia"
+          }
+        }
+      ]
+    }
+  },
+  "flex-layout.col#institucional-default__content": {
+    "title": "INSTITUCIONAL - conteúdo",
+    "children": [
+      "rich-text#institucional-default__title",
+      "info-card#qs__info-cards--item1",
+      "info-card#qs__info-cards--item2",
+      "flex-layout.row#qs__info__cards--item3"
+    ],
+    "props": {
+      "blockClass": "institucional-default__content",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#institucional-default__title": {
+    "title": "Título e Introdução",
+    "props": {
+      "text": "# sobre a marca\nA marca propõe uma nova forma de criar biquínis, roupas e moda. Com um olhar voltado para a singularidade feminina, enaltecendo cada corpo e seu biotipo único, além das coleções, a Suntime desenvolve peças exclusivas e sob medida sempre valorizando o consumo consciente e a sustentabilidade.",
+      "blockClass": "institucional-default__title"
+    }
+  },
+  "disclosure-layout#institucional-default__menu-dropdown": {
+    "children": [
+      "disclosure-trigger#institucional-default__menu-trigger",
+      "disclosure-content#institucional-default__menu-content"
+    ],
+    "props": {
+      "animated": true,
+      "initialVisibility": "hidden"
+    }
+  },
+  "disclosure-trigger#institucional-default__menu-trigger": {
+    "children": ["rich-text#institucional-default__menu-triggertext"],
+    "props": {
+      "blockClass": "institucional-default__menu-trigger"
+    }
+  },
+  "rich-text#institucional-default__menu-triggertext": {
+    "title": "TITULO",
+    "props": {
+      "text": "titulo",
+      "blockClass": "institucional-default__menu-triggertext"
+    }
+  },
+  "disclosure-content#institucional-default__menu-content": {
+    "children": ["menu#institucional-default__menu"],
+    "props": {
+      "blockClass": "institucional-default__menu-content"
+    }
+  }
+}

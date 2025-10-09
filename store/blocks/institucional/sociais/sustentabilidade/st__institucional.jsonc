@@ -1,0 +1,86 @@
+{
+  "store.custom#st__institucional": {
+    "blocks": [
+      "flex-layout.row#institucional-default__top",
+      "list-context.image-list#st__banner",
+      "flex-layout.row#institucional-sustentabilidade__content",
+      "cg-sustentabilidade-form",
+      "list-context.image-list#st-prefooter__banner"
+    ]
+  },
+  "flex-layout.row#institucional-sustentabilidade__content": {
+    "title": "INSTITUCIONAL",
+    "children": ["flex-layout.col#institucional-sustentabilidade__content"],
+    "props": {
+      "blockClass": "institucional-default__container",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#institucional-sustentabilidade__content": {
+    "title": "INSTITUCIONAL - conteúdo",
+    "children": [
+      "rich-text#st__title-mobile",
+      "rich-text#st__title",
+      "flex-layout.row#institucional-sustentabilidade__content-pilares",
+      "info-card#st__info-cards--item1",
+      "info-card#st__info-cards--item2",
+      "info-card#st__info-cards--item3"
+    ],
+    "props": {
+      "blockClass": "institucional-default__content",
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#st__title": {
+    "title": "Título e Introdução",
+    "props": {
+      "text": "# nossos pilares",
+      "blockClass": "institucional-default__title"
+    }
+  },
+  "rich-text#st__title-mobile": {
+    "title": "Título e Introdução - Mobile",
+    "props": {
+      "text": "# sustentabilidade\n\nQueremos criar uma moda mais sustentável e linda. Valorizar cada passo do processo e cada matéria-prima, minimizando os impactos da moda no meio ambiente. Buscamos construir uma moda mais humana e afetiva. Criar conexões e poesia, valorizando cada cliente, cada parceiro e cada mão que faz acontecer. Queremos transformar a moda. Criar uma marca com propósito. Incentivar um consumo mais consciente e inspirar as pessoas a vestir as melhores atitudes todos os dias. O Sol te convida a brilhar.",
+      "blockClass": [
+        "institucional-default__title",
+        "institucional-default__title-mobile"
+      ]
+    }
+  },
+  "cg-sustentabilidade-form": {
+    "props": {
+      "image": "assets/mock/institucional/fale-conosco.png"
+    }
+  },
+  "slider-layout#institucional__prefooter__banner--slider": {
+    "title": "INSTITUCIONAL - Banner Pre Footer - slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "blockClass": "home__main-banner"
+    }
+  },
+  "list-context.image-list#st-prefooter__banner": {
+    "title": "INSTITUCIONAL - Banner Pre Footer",
+    "children": ["slider-layout#institucional__prefooter__banner--slider"],
+    "props": {
+      "preload": true,
+      "height": "",
+      "images": [
+        {
+          "loading": "lazy",
+          "image": "assets/mock/institucional/st-prefooter-banner.png",
+          "mobileImage": "assets/mock/institucional/st-prefooter-banner-mob.png",
+          "description": "banner"
+        }
+      ]
+    }
+  }
+}

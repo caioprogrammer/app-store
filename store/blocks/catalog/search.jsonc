@@ -1,0 +1,33 @@
+{
+  "store.search": {
+    "blocks": [
+      "breadcrumb.search#search__breadcrumb",
+      "search-result-layout#search1"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "maxItemsPerPage": 32,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+  "search-result-layout#search1": {
+    "title": "CATEGORIA",
+    "blocks": ["search-result-layout.desktop", "search-not-found-layout"]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search#search__breadcrumb",
+      "list-context.image-list#search__banner",
+      "rich-text#search__seo",
+      "flex-layout.row#search__filter-container",
+      "flex-layout.row#search__products",
+      "cg-category-pagination"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  }
+}

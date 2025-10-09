@@ -1,0 +1,28 @@
+{
+  "info-card#home__info-cards--item1": {
+    "title": "Sob Medida Banner",
+    "props": {
+      "imageUrl": "assets/mock/home/info-card--sob-medida.png",
+      "headline": "SOB MEDIDA",
+      "subhead": "Nossas peças são pensadas para todas as mulheres e por isso não ficamos apenas nos formatos convencionais P, M e G. Nosso diferencial é fazer peças sob medida levando em conta a preferência e biotipo de cada cliente.",
+      "textPosition": "left",
+      "callToActionText": "agendar",
+      "callToActionUrl": "/institucional/sob-medida",
+      "imageActionUrl": "/institucional/sob-medida",
+      "blockClass": "home__info-cards--item"
+    }
+  },
+  "info-card#home__info-cards--item2": {
+    "title": "O Ateliê Banner",
+    "props": {
+      "imageUrl": "assets/mock/home/info-card--o-atelie.png",
+      "headline": "O ATELIÊ",
+      "subhead": "Um lugar para você brilhar: Fizemos um lugar para te receber bem, seja para criar uma peça sob medida para você, ou dar uma espiada nas peças novas (sempre tem) e até mesmo tomar um bom café com a gente!",
+      "textPosition": "right",
+      "callToActionText": "descubra",
+      "callToActionUrl": "/institucional/sob-medida",
+      "imageActionUrl": "/institucional/sob-medida",
+      "blockClass": "home__info-cards--item"
+    }
+  }
+}
