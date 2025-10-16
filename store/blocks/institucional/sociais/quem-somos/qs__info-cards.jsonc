@@ -6,7 +6,7 @@
       "textMode": "rich-text",
 
       "headline": "",
-      "subhead": "Inspirada em criar uma marca com propósito, ressignificar o biquíni, e repensar o modelo atual do fast fashion, em 2017 nasceu a Suntime Swim. À frente da direção criativa, a empreendedora e estilista Júlia Fantin, buscou inovar em seu modelo de negócio, com um atelier de moda praia que faz coleções e peças exclusivas e sob medida. Com um olhar voltado para a singularidade feminina, que valoriza cada corpo e seu biotipo único, a Suntime propõe uma nova forma de criar biquínis: desenvolve as peças exclusivas e sob medida. No ateliê as peças são produzidas com calma, cuidado e muita preocupação com a qualidade: um processo criativo combinado com um processo de produção artesanal. A alta-costura do Swimwear Brasileiro.",
+      "subhead": "Inspirada em criar uma marca com propósito, ressignificar o biquíni, e repensar o modelo atual do fast fashion, em 2017 nasceu a atelierjuliafantin Swim. À frente da direção criativa, a empreendedora e estilista Júlia Fantin, buscou inovar em seu modelo de negócio, com um atelier de moda praia que faz coleções e peças exclusivas e sob medida. Com um olhar voltado para a singularidade feminina, que valoriza cada corpo e seu biotipo único, a atelierjuliafantin propõe uma nova forma de criar biquínis: desenvolve as peças exclusivas e sob medida. No ateliê as peças são produzidas com calma, cuidado e muita preocupação com a qualidade: um processo criativo combinado com um processo de produção artesanal. A alta-costura do Swimwear Brasileiro.",
       "textPosition": "right",
       "callToActionText": "",
       "callToActionUrl": "",
@@ -20,7 +20,7 @@
       "imageUrl": "assets/mock/institucional/qs_infocard-2.png",
       "textMode": "rich-text",
       "headline": "",
-      "subhead": "A Suntime tem como principal desafio transformar a moda. Fazer moda consciente. Criar uma marca com propósito. Com mais alma. Quer que cada mulher se sinta bem em seu corpo. Busca construir uma moda mais afetiva e sustentável. Valoriza cada passo do processo, cada mão que faz acontecer, cada matéria-prima. Além do nosso design exclusivo com modelagens disrruptivas e atemporais, nossas peças são ecoamigas, com tecidos e materiais principalmente provenientes de fibras de origem natural, ou seja, com menor impacto ambiental, fornecidas pelas maiores tecelagens brasileiras de referência global com opções de tecidos biodegradáveis, tecnologia de proteção solar e livre de amaciantes químicos.  #O sol te convida a brilhar. ",
+      "subhead": "A atelierjuliafantin tem como principal desafio transformar a moda. Fazer moda consciente. Criar uma marca com propósito. Com mais alma. Quer que cada mulher se sinta bem em seu corpo. Busca construir uma moda mais afetiva e sustentável. Valoriza cada passo do processo, cada mão que faz acontecer, cada matéria-prima. Além do nosso design exclusivo com modelagens disrruptivas e atemporais, nossas peças são ecoamigas, com tecidos e materiais principalmente provenientes de fibras de origem natural, ou seja, com menor impacto ambiental, fornecidas pelas maiores tecelagens brasileiras de referência global com opções de tecidos biodegradáveis, tecnologia de proteção solar e livre de amaciantes químicos.  #O sol te convida a brilhar. ",
       "textPosition": "left",
       "callToActionText": "",
       "callToActionUrl": "",
@@ -40,13 +40,13 @@
   },
   "rich-text#qs__info__cards--item3__text": {
     "props": {
-      "text": "# A ESTILISTA\nJúlia Fantin, a estilista.\n\nInspirada pela cidade onde cresceu, Florianópolis, e pelas suas lindas praias, apaixonada por moda praia e lingerie, Júlia Fantin como estilista, busca ressignificar o biquíni, que é onde a mulher mais expõe o seu corpo e possui menos estrutura. Gosta de desafiar os limites do design de moda usando combinações de materiais de uma forma não convencional, criando formas que valorizem o corpo feminino, aliando funcionalidade à beleza.\n\nApós sua graduação em Desenho Industrial na PUCPR, foi para Milão na Itália se aprofundar na sua grande paixão: Moda. Formou-se pelo Instituto di Moda Burgo di Milano. De volta ao Brasil, a estilista passou por empresas renomadas como Puket, Hope Lingerie, e Loungerie. A vontade de empreender e seguir os passos de seu Nonno e Nonna a impulsionou para um novo desafio em sua carreira profissional. Hoje, atua como empreendedora e diretora criativa da marca Suntime.",
+      "text": "# A ESTILISTA\nJúlia Fantin, a estilista.\n\nInspirada pela cidade onde cresceu, Florianópolis, e pelas suas lindas praias, apaixonada por moda praia e lingerie, Júlia Fantin como estilista, busca ressignificar o biquíni, que é onde a mulher mais expõe o seu corpo e possui menos estrutura. Gosta de desafiar os limites do design de moda usando combinações de materiais de uma forma não convencional, criando formas que valorizem o corpo feminino, aliando funcionalidade à beleza.\n\nApós sua graduação em Desenho Industrial na PUCPR, foi para Milão na Itália se aprofundar na sua grande paixão: Moda. Formou-se pelo Instituto di Moda Burgo di Milano. De volta ao Brasil, a estilista passou por empresas renomadas como Puket, Hope Lingerie, e Loungerie. A vontade de empreender e seguir os passos de seu Nonno e Nonna a impulsionou para um novo desafio em sua carreira profissional. Hoje, atua como empreendedora e diretora criativa da marca atelierjuliafantin.",
       "blockClass": "card3--text-text"
     }
   },
   "image#qs__info__cards--item3__image": {
     "props": {
-      "src": "https://suntime.vtexassets.com/assets/vtex/assets-builder/atelierjuliafantin.commercegrowth-store/0.0.40/mock/institucional/qs_infocard-3___1a8be55875fffcc4fb7e402e52c27afb.png"
+      "src": "https://atelierjuliafantin.vtexassets.com/assets/vtex/assets-builder/atelierjuliafantin.commercegrowth-store/0.0.40/mock/institucional/qs_infocard-3___1a8be55875fffcc4fb7e402e52c27afb.png"
     }
   },
   "disclosure-layout#card3--text": {

@@ -7,7 +7,7 @@
   },
   "rich-text#footer__atendimento": {
     "props": {
-      "text": "\n- <a target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--footer__links--text-atendimento' href='https://api.whatsapp.com/send?phone=5511911692266'>(11) 91169-2266</a>\n- (11) 4323-5706\n- contato@suntime.com.br\n- Seg. a sex. das 9h às 18h",
+      "text": "\n- <a target='_blank' class='vtex-rich-text-0-x-link vtex-rich-text-0-x-link--footer__links--text-atendimento' href='https://api.whatsapp.com/send?phone=5511911692266'>(11) 91169-2266</a>\n- (11) 4323-5706\n- contato@atelierjuliafantin.com.br\n- Seg. a sex. das 9h às 18h",
       "blockClass": "footer__links--text-atendimento"
     }
   }

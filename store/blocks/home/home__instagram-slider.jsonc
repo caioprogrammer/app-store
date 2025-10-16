@@ -2,8 +2,8 @@
   "link#home__instagram--title": {
     "title": "HOME - Titulo vitrine de instagram",
     "props": {
-      "href": "https://www.instagram.com/suntime.swim/",
-      "label": "SIGA A GENTE @SUNTIME.SWIM",
+      "href": "https://www.instagram.com/atelierjuliafantin.swim/",
+      "label": "SIGA A GENTE @atelierjuliafantin.SWIM",
       "target": "_blank",
       "blockClass": "home__instagram--slider"
     }
