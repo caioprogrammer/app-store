@@ -18,6 +18,8 @@
   },
   "search-result-layout.desktop": {
     "children": [
+      "slider-layout#search__banner-slider",
+      "image#banner-desktop",
       "breadcrumb.search#search__breadcrumb",
       "list-context.image-list#search__banner",
       "rich-text#search__seo",
@@ -28,6 +30,11 @@
     "props": {
       "pagination": "show-more",
       "preventRouteChange": true
+    }
+  },
+  "image#banner-desktop": {
+    "props": {
+      "blockClass": "banner-desktop-category"
     }
   }
 }

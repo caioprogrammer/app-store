@@ -5,7 +5,7 @@
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 2,
-        "phone": 1
+        "phone": 1.25
       },
       "navigationStep": 1,
       "infinite": false,

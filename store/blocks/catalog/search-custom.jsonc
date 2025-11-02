@@ -12,6 +12,9 @@
       "pagination": "show-more",
       "preventRouteChange": true
     },
-    "blocks": ["search-result-layout.desktop", "search-not-found-layout"]
+    "blocks": [
+      "search-result-layout.desktop", 
+      "search-not-found-layout"
+    ]
   }
 }

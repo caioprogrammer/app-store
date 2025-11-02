@@ -11,7 +11,9 @@
     "blocks": ["product-summary.shelf#shelf"],
     "children": ["slider-layout#shelf__slider"],
     "props": {
-      "skusFilter": "ALL"
+      "skusFilter": "ALL_AVAILABLE",
+      "hideUnavailableItems": true,
+      "category": "2"
     }
   },
   "slider-layout#shelf__slider": {

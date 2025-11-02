@@ -1,80 +1,92 @@
 {
   "product-summary.shelf#shelf": {
     "children": [
-      // "add-to-list-btn#shelf",
-      // "flex-layout.row#shelf__image",
-      "product-summary-name"
-      // "cg-kitlook-prices",
-      // "flex-layout.row#shelf__flags"
+      "add-to-list-btn#shelf",
+      "flex-layout.row#shelf__image",
+      "flex-layout.row#name-with-prices",
+      "flex-layout.row#shelf__flags"
     ],
     "props": {
       "blockClass": "shelf"
     }
+  },
+  "flex-layout.row#prices-shelf": {
+    "children": ["flex-layout.col#prices-shelf"]
+  },
+  "flex-layout.col#prices-shelf": {
+    "children": [
+      "product-list-price#shelf__price",
+      "product-selling-price#shelf__selling-price"
+    ]
+  },
+  "cg-kitlook-prices": {
+    "children": ["flex-layout.row#prices-shelf"]
+  },
+  "add-to-list-btn#shelf": {
+    "props": {
+      "blockClass": "ws_shelf"
+    }
+  },
+  "flex-layout.row#shelf__image": {
+    "children": [
+      "cg-shelf-slider-custom", 
+      "cg-shelf-variations"
+    ],
+    "props": {
+      "blockClass": "shelf__image",
+      "colSizing": "auto"
+    }
+  },
+  "product-summary-image#shelf__image": {
+    "props": {
+      "showBadge": false,
+      "showCollections": false,
+      "hoverImage": {
+        "criteria": "index",
+        "index": "1"
+      }
+    }
+  },
+  "flex-layout.row#name-with-prices": {
+    "children": [
+      "product-summary-name",
+      "cg-kitlook-prices"
+    ],
+    "props": {
+      "blockClass": "shelf__name--prices",
+      "colSizing": "auto"
+    }
+  },
+  "product-list-price#shelf__price": {
+    "props": {
+      "blockClass": "shelf__price",
+      "message": "{listPriceValue}"
+    }
+  },
+  "product-selling-price#shelf__selling-price": {
+    "props": {
+      //"markers": ["highlight"],
+      "blockClass": "shelf__price",
+      "message": "{sellingPriceValue}",
+      "alwaysShow": true
+    }
+  },
+  "flex-layout.row#shelf__flags": {
+    "children": [
+      //"vtex.product-highlights@2.x:product-highlights"
+    ],
+    "props": {
+      "blockClass": "shelf__highlight",
+      "colSizing": "auto"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "shelf__highlight"
+    }
   }
-  // "flex-layout.row#prices-shelf": {
-  //   "children": ["flex-layout.col#prices-shelf"]
-  // },
-  // "flex-layout.col#prices-shelf": {
-  //   "children": [
-  //     "product-list-price#shelf__price",
-  //     "product-selling-price#shelf__selling-price"
-  //   ]
-  // },
-  // "cg-kitlook-prices": {
-  //   "children": ["flex-layout.row#prices-shelf"]
-  // },
-  // "add-to-list-btn#shelf": {
-  //   "props": {
-  //     "blockClass": "ws_shelf"
-  //   }
-  // },
-  // "flex-layout.row#shelf__image": {
-  //   "children": ["cg-shelf-slider-custom", "cg-shelf-variations"],
-  //   "props": {
-  //     "blockClass": "shelf__image",
-  //     "colSizing": "auto"
-  //   }
-  // },
-  // "product-summary-image#shelf__image": {
-  //   "props": {
-  //     "showBadge": false,
-  //     "showCollections": false,
-  //     "hoverImage": {
-  //       "criteria": "index",
-  //       "index": "1"
-  //     }
-  //   }
-  // },
-  // "product-list-price#shelf__price": {
-  //   "props": {
-  //     "blockClass": "shelf__price",
-  //     "message": "{listPriceValue}"
-  //   }
-  // },
-  // "product-selling-price#shelf__selling-price": {
-  //   "props": {
-  //     //"markers": ["highlight"],
-  //     "blockClass": "shelf__price",
-  //     "message": "{sellingPriceValue}",
-  //     "alwaysShow": true
-  //   }
-  // },
-  // "flex-layout.row#shelf__flags": {
-  //   "children": [
-  //     //"vtex.product-highlights@2.x:product-highlights"
-  //   ],
-  //   "props": {
-  //     "blockClass": "shelf__highlight",
-  //     "colSizing": "auto"
-  //   }
-  // },
-  // "vtex.product-highlights@2.x:product-highlights": {
-  //   "children": ["product-highlight-text"]
-  // },
-  // "product-highlight-text": {
-  //   "props": {
-  //     "message": "{highlightName}",
-  //     "blockClass": "shelf__highlight"
-  //   }
-  // }
 }

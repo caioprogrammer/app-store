@@ -17,6 +17,7 @@
   },
   "search-result-layout.desktop#brand": {
     "children": [
+      "image#banner-desktop",
       "breadcrumb.search#search__breadcrumb",
       "flex-layout.row#brand-title-text",
       "total-products.v2",
@@ -42,6 +43,11 @@
     "props": {
       "pagination": "show-more",
       "preventRouteChange": true
+    }
+  },
+  "image#banner-desktop": {
+    "props": {
+      "blockClass": "banner-desktop-category"
     }
   },
   "flex-layout.row#brand-title-text": {

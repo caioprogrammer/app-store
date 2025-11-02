@@ -48,7 +48,6 @@
       "cg-custom-header",
       "slider-layout#header__tipbar",
       "flex-layout.row#header__content",
-      "flex-layout.row#header__menu-logo",
       "link#header__whatsapp--link"
     ],
     "props": {
