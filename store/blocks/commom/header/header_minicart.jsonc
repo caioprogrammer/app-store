@@ -118,7 +118,7 @@
   },
   "rich-text#text-minicart-footer": {
     "props": {
-      "text": "**![folha](assets/icons/icon-text-footer.svg)** você sabia está apoiando uma marca ecoamiga que busca construir uma moda mais sustentável e consciente?",
+      "text": "**![folha](assets/icons/icon-text-footer.svg)** Você sabia que está apoiando uma marca ecoamiga? Nós buscamos construir uma mofa mais sustentável e consciente, obrigado por fazer a diferença!",
       "blockClass": "header__text--footer"
     }
   },
