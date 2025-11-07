@@ -71,7 +71,7 @@
   "rich-text#search__filter--triggertext": {
     "title": "FILTRO - texto botão filtrar",
     "props": {
-      "text": "filtrar",
+      "text": "filtrar >",
       "blockClass": "search__filter--triggertext"
     }
   },
