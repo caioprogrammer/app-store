@@ -3,7 +3,7 @@
     "title": "Home",
     "blocks": [
       "list-context.image-list#home__main-banner",
-      "cg-banner-carousel#home__banner-1",
+      // "cg-banner-carousel#home__banner-1",
       "slider-layout#home__categories",
       // "slider-layout#home__slider-infos",
       "rich-text#home__shelf--title-1",
