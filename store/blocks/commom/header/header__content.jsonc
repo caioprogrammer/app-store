@@ -1,6 +1,7 @@
 {
   "flex-layout.row#header__content": {
     "children": [
+      "image#logo-suntime",
       "image#icon-logo",
       "flex-layout.row#header__icons"
     ],
@@ -84,6 +85,17 @@
       "src": "assets/icons/icon-logo.svg",
       "link": {
         "url": "/"
+      }
+    }
+  },
+  "image#logo-suntime": {
+    "title": "HEADER - Logo",
+    "props": {
+      "blockClass": "logo-suntime",
+      "src": "https://suntime.vtexassets.com/assets/vtex/assets-builder/suntime.commercegrowth-store/1.0.45/icons/icon-logo___83edb2ef75b97a19012d776d401ddfcc.svg",
+      "link": {
+        "openNewTab": false,
+        "url": "https://www.suntime.com.br"
       }
     }
   },
